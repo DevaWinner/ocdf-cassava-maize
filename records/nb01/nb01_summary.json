@@ -1,0 +1,245 @@
+{
+ "environment": {
+  "notebook": "01_data_acquisition_and_inventory",
+  "run_utc": "2026-11-04T11:50:14.205488+00:00",
+  "python": "3.13.18",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "cpu_count": 2,
+  "pillow": "11.3.0",
+  "numpy": "2.4.6",
+  "disk_free_gb": 115.6
+ },
+ "counts": [
+  {
+   "source_id": "D1",
+   "original_label": "CBB",
+   "research_label": "C01",
+   "downloaded": 1087,
+   "readable": 1087,
+   "unreadable": 0,
+   "selected": 1087,
+   "excluded": 0
+  },
+  {
+   "source_id": "D1",
+   "original_label": "CBSD",
+   "research_label": "(excluded)",
+   "downloaded": 2189,
+   "readable": 2189,
+   "unreadable": 0,
+   "selected": 0,
+   "excluded": 2189
+  },
+  {
+   "source_id": "D1",
+   "original_label": "CGM",
+   "research_label": "(excluded)",
+   "downloaded": 2386,
+   "readable": 2386,
+   "unreadable": 0,
+   "selected": 0,
+   "excluded": 2386
+  },
+  {
+   "source_id": "D1",
+   "original_label": "CMD",
+   "research_label": "C02",
+   "downloaded": 13158,
+   "readable": 13158,
+   "unreadable": 0,
+   "selected": 13158,
+   "excluded": 0
+  },
+  {
+   "source_id": "D1",
+   "original_label": "Healthy",
+   "research_label": "C03",
+   "downloaded": 2577,
+   "readable": 2577,
+   "unreadable": 0,
+   "selected": 2577,
+   "excluded": 0
+  },
+  {
+   "source_id": "D3",
+   "original_label": "Cassava/bacterial blight",
+   "research_label": "C01",
+   "downloaded": 2614,
+   "readable": 2614,
+   "unreadable": 0,
+   "selected": 2614,
+   "excluded": 0
+  },
+  {
+   "source_id": "D3",
+   "original_label": "Cassava/healthy",
+   "research_label": "C03",
+   "downloaded": 1193,
+   "readable": 1193,
+   "unreadable": 0,
+   "selected": 1193,
+   "excluded": 0
+  },
+  {
+   "source_id": "D3",
+   "original_label": "Cassava/mosaic",
+   "research_label": "C02",
+   "downloaded": 1205,
+   "readable": 1205,
+   "unreadable": 0,
+   "selected": 1205,
+   "excluded": 0
+  },
+  {
+   "source_id": "D3",
+   "original_label": "Maize/healthy",
+   "research_label": "M05",
+   "downloaded": 208,
+   "readable": 204,
+   "unreadable": 4,
+   "selected": 204,
+   "excluded": 4
+  },
+  {
+   "source_id": "D3",
+   "original_label": "Maize/streak virus",
+   "research_label": "M01",
+   "downloaded": 979,
+   "readable": 965,
+   "unreadable": 14,
+   "selected": 965,
+   "excluded": 14
+  },
+  {
+   "source_id": "D4",
+   "original_label": "HEATHLY",
+   "research_label": "M05",
+   "downloaded": 5118,
+   "readable": 5117,
+   "unreadable": 1,
+   "selected": 5117,
+   "excluded": 1
+  },
+  {
+   "source_id": "D4",
+   "original_label": "MSV_1",
+   "research_label": "M01",
+   "downloaded": 3157,
+   "readable": 3157,
+   "unreadable": 0,
+   "selected": 3157,
+   "excluded": 0
+  },
+  {
+   "source_id": "D4",
+   "original_label": "MSV_2",
+   "research_label": "M01",
+   "downloaded": 3095,
+   "readable": 3095,
+   "unreadable": 0,
+   "selected": 3095,
+   "excluded": 0
+  },
+  {
+   "source_id": "D6",
+   "original_label": "Corn___Cercospora_leaf_spot Gray_leaf_spot",
+   "research_label": "M03",
+   "downloaded": 513,
+   "readable": 513,
+   "unreadable": 0,
+   "selected": 513,
+   "excluded": 0
+  },
+  {
+   "source_id": "D6",
+   "original_label": "Corn___Common_rust",
+   "research_label": "M04",
+   "downloaded": 1192,
+   "readable": 1192,
+   "unreadable": 0,
+   "selected": 1192,
+   "excluded": 0
+  },
+  {
+   "source_id": "D6",
+   "original_label": "Corn___Northern_Leaf_Blight",
+   "research_label": "M02",
+   "downloaded": 985,
+   "readable": 985,
+   "unreadable": 0,
+   "selected": 985,
+   "excluded": 0
+  },
+  {
+   "source_id": "D6",
+   "original_label": "Corn___healthy",
+   "research_label": "M05",
+   "downloaded": 1162,
+   "readable": 1162,
+   "unreadable": 0,
+   "selected": 1162,
+   "excluded": 0
+  }
+ ],
+ "duplicates": {
+  "exact_duplicate_files_within_sources": {
+   "D3": 224
+  },
+  "exact_duplicate_groups_within_sources": {
+   "D3": 112
+  },
+  "files_identical_between_development_and_D3": 0
+ },
+ "checksums": {
+  "D1": {
+   "cassava-leaf-disease-classification.zip": {
+    "sha256": "25e1106760b771db44a52ea68c5ec95c22067119e9b882363791fc3a6d3c56ae",
+    "bytes": 6185662420,
+    "published_checksum": "none published",
+    "retrieved_utc": "2026-11-04T11:51:56.284155+00:00"
+   }
+  },
+  "D3": {
+   "per_file_sha256_checked": true,
+   "mismatches": 0,
+   "retrieved_utc": "2026-11-04T12:14:54.174677+00:00"
+  },
+  "D4": {
+   "HEATHLY.zip": {
+    "dataverse_file_id": 6966997,
+    "sha256": "6b21f7d0cc712768434f752fd801991907f3ac514af817be2ca1f5d1a596c2f2",
+    "md5": "2d38c9aac0bfb3dfd5ab8ac832a7110a",
+    "published_md5": "2d38c9aac0bfb3dfd5ab8ac832a7110a",
+    "md5_match": true,
+    "bytes": 1241804918,
+    "retrieved_utc": "2026-11-04T12:02:05.421364+00:00"
+   },
+   "MSV_1.zip": {
+    "dataverse_file_id": 6966998,
+    "sha256": "494629587cf2bf881bbfa5bddfced468d55b04b7ac2b8028751555d474595cdf",
+    "md5": "7aaf5830b95c108563c1e1e275f1886a",
+    "published_md5": "7aaf5830b95c108563c1e1e275f1886a",
+    "md5_match": true,
+    "bytes": 940154738,
+    "retrieved_utc": "2026-11-04T12:02:34.286533+00:00"
+   },
+   "MSV_2.zip": {
+    "dataverse_file_id": 6962930,
+    "sha256": "e995aeb3b589ce5b0c6303fb29597a79762e9868a8b46eb50512a36a27be0059",
+    "md5": "645c54bbe8bdaeb4288336a005483231",
+    "published_md5": "645c54bbe8bdaeb4288336a005483231",
+    "md5_match": true,
+    "bytes": 997312361,
+    "retrieved_utc": "2026-11-04T12:03:01.100081+00:00"
+   }
+  },
+  "D6": {
+   "plantvillage.zip": {
+    "sha256": "ac3432453984d02a86197987e775a5429d0d59e7cc7c35bcf5a8f50349b90ff0",
+    "bytes": 868032562,
+    "published_checksum": "see TFDS checksums file for plant_village",
+    "retrieved_utc": "2026-11-04T12:15:37.538660+00:00"
+   }
+  }
+ }
+}

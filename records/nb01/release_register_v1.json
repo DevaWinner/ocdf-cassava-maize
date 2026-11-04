@@ -1,0 +1,108 @@
+{
+ "D1": {
+  "title": "Cassava Leaf Disease Classification",
+  "creator": "Makerere University AI Lab (Kaggle competition)",
+  "url": "https://www.kaggle.com/competitions/cassava-leaf-disease-classification",
+  "licence": "Kaggle competition rules",
+  "role": "Cassava development",
+  "archives": {
+   "cassava-leaf-disease-classification.zip": {
+    "sha256": "25e1106760b771db44a52ea68c5ec95c22067119e9b882363791fc3a6d3c56ae",
+    "bytes": 6185662420,
+    "published_checksum": "none published",
+    "retrieved_utc": "2026-11-04T11:51:56.284155+00:00"
+   }
+  },
+  "working": {
+   "tar": "working_D1.tar",
+   "sha256": "bd4af39ec231ac741aea3a5f928924b2554e2545f80bb786538ad2c4f9b7343c",
+   "bytes": 2147624960
+  },
+  "n_rows": 21397
+ },
+ "D3": {
+  "title": "Dataset for Crop Pest and Disease Detection (CCMT), Raw Data",
+  "creator": "Mensah et al.",
+  "doi": "10.17632/bwh3zbpkpv.1",
+  "version": "1",
+  "url": "https://data.mendeley.com/datasets/bwh3zbpkpv/1",
+  "licence": "CC BY 4.0",
+  "role": "External test only",
+  "archives": {
+   "per_file_sha256_checked": true,
+   "mismatches": 0,
+   "retrieved_utc": "2026-11-04T12:14:54.174677+00:00"
+  },
+  "working": {
+   "tar": "working_D3.tar",
+   "sha256": "4821bd9dcee8c5ea6d97725fe9935e28f52dd0b97d02516c16f663db9cc968ea",
+   "bytes": 327127040
+  },
+  "n_rows": 6199
+ },
+ "D4": {
+  "title": "Machine learning imagery dataset for maize crop: A case of Tanzania",
+  "creator": "Mduma & Laizer",
+  "doi": "10.7910/DVN/GDON8Q",
+  "version": "6.0",
+  "url": "https://doi.org/10.7910/DVN/GDON8Q",
+  "licence": "CC0 1.0",
+  "role": "Maize development",
+  "archives": {
+   "HEATHLY.zip": {
+    "dataverse_file_id": 6966997,
+    "sha256": "6b21f7d0cc712768434f752fd801991907f3ac514af817be2ca1f5d1a596c2f2",
+    "md5": "2d38c9aac0bfb3dfd5ab8ac832a7110a",
+    "published_md5": "2d38c9aac0bfb3dfd5ab8ac832a7110a",
+    "md5_match": true,
+    "bytes": 1241804918,
+    "retrieved_utc": "2026-11-04T12:02:05.421364+00:00"
+   },
+   "MSV_1.zip": {
+    "dataverse_file_id": 6966998,
+    "sha256": "494629587cf2bf881bbfa5bddfced468d55b04b7ac2b8028751555d474595cdf",
+    "md5": "7aaf5830b95c108563c1e1e275f1886a",
+    "published_md5": "7aaf5830b95c108563c1e1e275f1886a",
+    "md5_match": true,
+    "bytes": 940154738,
+    "retrieved_utc": "2026-11-04T12:02:34.286533+00:00"
+   },
+   "MSV_2.zip": {
+    "dataverse_file_id": 6962930,
+    "sha256": "e995aeb3b589ce5b0c6303fb29597a79762e9868a8b46eb50512a36a27be0059",
+    "md5": "645c54bbe8bdaeb4288336a005483231",
+    "published_md5": "645c54bbe8bdaeb4288336a005483231",
+    "md5_match": true,
+    "bytes": 997312361,
+    "retrieved_utc": "2026-11-04T12:03:01.100081+00:00"
+   }
+  },
+  "working": {
+   "tar": "working_D4.tar",
+   "sha256": "72f849df5473b828636db297f95f90af7025846aed2b7dbfe583c8f533ddf3df",
+   "bytes": 1101568000
+  },
+  "n_rows": 11370
+ },
+ "D6": {
+  "title": "PlantVillage, Plant_leave_diseases_dataset_without_augmentation (maize classes)",
+  "creator": "Hughes & Salathe; archive as used by TensorFlow Datasets plant_village 1.0.2",
+  "url": "https://data.mendeley.com/public-files/datasets/tywbtsjrjv/files/d5652a28-c1d8-4b76-97f3-72fb80f94efc/file_downloaded",
+  "licence": "Republication shows CC0; original creator terms recorded separately",
+  "role": "Maize development",
+  "archives": {
+   "plantvillage.zip": {
+    "sha256": "ac3432453984d02a86197987e775a5429d0d59e7cc7c35bcf5a8f50349b90ff0",
+    "bytes": 868032562,
+    "published_checksum": "see TFDS checksums file for plant_village",
+    "retrieved_utc": "2026-11-04T12:15:37.538660+00:00"
+   }
+  },
+  "working": {
+   "tar": "working_D6.tar",
+   "sha256": "83822d40468b951294b79d2e2a4f6676f7b0af0c9e90b8807df283808ff84d89",
+   "bytes": 106301440
+  },
+  "n_rows": 3852
+ }
+}

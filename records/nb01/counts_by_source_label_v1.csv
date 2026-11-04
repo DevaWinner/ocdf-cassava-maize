@@ -1,0 +1,18 @@
+source_id,original_label,research_label,downloaded,readable,unreadable,selected,excluded
+D1,CBB,C01,1087,1087,0,1087,0
+D1,CBSD,(excluded),2189,2189,0,0,2189
+D1,CGM,(excluded),2386,2386,0,0,2386
+D1,CMD,C02,13158,13158,0,13158,0
+D1,Healthy,C03,2577,2577,0,2577,0
+D3,Cassava/bacterial blight,C01,2614,2614,0,2614,0
+D3,Cassava/healthy,C03,1193,1193,0,1193,0
+D3,Cassava/mosaic,C02,1205,1205,0,1205,0
+D3,Maize/healthy,M05,208,204,4,204,4
+D3,Maize/streak virus,M01,979,965,14,965,14
+D4,HEATHLY,M05,5118,5117,1,5117,1
+D4,MSV_1,M01,3157,3157,0,3157,0
+D4,MSV_2,M01,3095,3095,0,3095,0
+D6,Corn___Cercospora_leaf_spot Gray_leaf_spot,M03,513,513,0,513,0
+D6,Corn___Common_rust,M04,1192,1192,0,1192,0
+D6,Corn___Northern_Leaf_Blight,M02,985,985,0,985,0
+D6,Corn___healthy,M05,1162,1162,0,1162,0
