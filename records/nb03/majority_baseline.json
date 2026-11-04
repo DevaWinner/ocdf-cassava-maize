@@ -1,0 +1,12 @@
+{
+ "cassava": {
+  "majority_class": "C02",
+  "select_accuracy": 0.7819,
+  "select_macro_f1": 0.2925
+ },
+ "maize": {
+  "majority_class": "M05",
+  "select_accuracy": 0.4125,
+  "select_macro_f1": 0.1168
+ }
+}

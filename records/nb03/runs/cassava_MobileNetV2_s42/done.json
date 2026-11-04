@@ -1,0 +1,46 @@
+{
+ "run_id": "cassava_MobileNetV2_s42",
+ "crop": "cassava",
+ "architecture": "MobileNetV2",
+ "seed": 42,
+ "protocol": "v2",
+ "manifest_sha256": "93463d32bcbefbbe15465ac505a08a429e5b889c9e7e421db9b6a278385f0d97",
+ "n_train": 11770,
+ "n_select": 1683,
+ "params_total": 2261827,
+ "params_trainable_finetune": 1685187,
+ "unfreeze": {
+  "rule": "from first layer named block_13*",
+  "first_trainable_layer": "block_13_expand",
+  "trainable_backbone_layers": 38,
+  "total_backbone_layers": 154
+ },
+ "best_phase": "finetune",
+ "best_epoch": 6,
+ "epochs_run": {
+  "head": 5,
+  "finetune": 11
+ },
+ "select_macro_f1": 0.6786154563355083,
+ "select_accuracy": 0.8383838383838383,
+ "select_per_class_f1": {
+  "C01": 0.4948453608247423,
+  "C02": 0.9220985691573926,
+  "C03": 0.6189024390243902
+ },
+ "keras_file_bytes": 23147551,
+ "minutes": 4.8,
+ "finished_utc": "2026-11-04T16:16:55.221985+00:00",
+ "environment": {
+  "notebook": "03_training",
+  "run_utc": "2026-11-04T16:01:03.042369+00:00",
+  "python": "3.13.16",
+  "tensorflow": "2.21.0",
+  "keras": "3.13.2",
+  "numpy": "2.4.6",
+  "gpu": "NVIDIA A100-SXM4-80GB, 81920 MiB",
+  "cpu_count": 12,
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "scikit_learn": "1.6.1"
+ }
+}

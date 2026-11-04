@@ -1,0 +1,46 @@
+{
+ "run_id": "cassava_EfficientNetB0_s2026",
+ "crop": "cassava",
+ "architecture": "EfficientNetB0",
+ "seed": 2026,
+ "protocol": "v2",
+ "manifest_sha256": "93463d32bcbefbbe15465ac505a08a429e5b889c9e7e421db9b6a278385f0d97",
+ "n_train": 11770,
+ "n_select": 1683,
+ "params_total": 4053414,
+ "params_trainable_finetune": 3159583,
+ "unfreeze": {
+  "rule": "from first layer named block6a*",
+  "first_trainable_layer": "block6a_expand_conv",
+  "trainable_backbone_layers": 75,
+  "total_backbone_layers": 238
+ },
+ "best_phase": "head",
+ "best_epoch": 5,
+ "epochs_run": {
+  "head": 5,
+  "finetune": 5
+ },
+ "select_macro_f1": 0.6884439153993297,
+ "select_accuracy": 0.8306595365418895,
+ "select_per_class_f1": {
+  "C01": 0.5374449339207048,
+  "C02": 0.9136892814130871,
+  "C03": 0.6141975308641975
+ },
+ "keras_file_bytes": 42385031,
+ "minutes": 4.2,
+ "finished_utc": "2026-11-04T16:53:25.576158+00:00",
+ "environment": {
+  "notebook": "03_training",
+  "run_utc": "2026-11-04T16:01:03.042369+00:00",
+  "python": "3.13.16",
+  "tensorflow": "2.21.0",
+  "keras": "3.13.2",
+  "numpy": "2.4.6",
+  "gpu": "NVIDIA A100-SXM4-80GB, 81920 MiB",
+  "cpu_count": 12,
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "scikit_learn": "1.6.1"
+ }
+}

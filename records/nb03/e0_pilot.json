@@ -1,0 +1,143 @@
+{
+ "environment": {
+  "notebook": "03_training",
+  "run_utc": "2026-11-04T16:01:03.042369+00:00",
+  "python": "3.13.16",
+  "tensorflow": "2.21.0",
+  "keras": "3.13.2",
+  "numpy": "2.4.6",
+  "gpu": "NVIDIA A100-SXM4-80GB, 81920 MiB",
+  "cpu_count": 12,
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "scikit_learn": "1.6.1"
+ },
+ "recipe": {
+  "input": "224x224 RGB, aspect-preserving resize with zero padding, float 0-255 into the model",
+  "head": "GlobalAveragePooling2D, Dropout 0.2, Dense softmax",
+  "head_lr": 0.001,
+  "head_max_epochs": 5,
+  "finetune_lr": 1e-05,
+  "finetune_max_epochs": 25,
+  "loss": "categorical cross-entropy, no label smoothing",
+  "class_weights": {
+   "cassava": {
+    "C01": 5.0,
+    "C02": 0.426,
+    "C03": 2.1772
+   },
+   "maize": {
+    "M01": 0.4866,
+    "M02": 3.0987,
+    "M03": 5.0,
+    "M04": 2.5556,
+    "M05": 0.4847
+   }
+  },
+  "class_weight_method": "per-image sample weight from the training-count weights",
+  "batch_size": 32,
+  "patience": 5,
+  "stopping_metric": "selection macro-F1, best weights restored",
+  "augmentation": "training only: horizontal and vertical flips, rotation up to 0.05 turn (18 degrees), brightness and contrast +/-10%",
+  "unfreeze_from": {
+   "MobileNetV2": "block_13",
+   "MobileNetV3Small": "expanded_conv_8",
+   "EfficientNetB0": "block6a"
+  },
+  "batch_norm": "backbone called with training=False (inference-mode statistics) in both phases"
+ },
+ "architectures": {
+  "MobileNetV2": {
+   "params_total": 2261827,
+   "unfreeze": {
+    "rule": "from first layer named block_13*",
+    "first_trainable_layer": "block_13_expand",
+    "trainable_backbone_layers": 38,
+    "total_backbone_layers": 154
+   },
+   "seconds_per_step_head": 0.0545,
+   "seconds_per_step_finetune": 0.0544,
+   "conversion": {
+    "route": "Keras export + from_saved_model",
+    "fp32": {
+     "ok": true,
+     "bytes": 8903480,
+     "output_shape": [
+      1,
+      3
+     ],
+     "output_sum": 1.0
+    },
+    "int8": {
+     "ok": true,
+     "bytes": 2737304,
+     "output_shape": [
+      1,
+      3
+     ],
+     "output_sum": 0.99609375
+    }
+   }
+  },
+  "MobileNetV3Small": {
+   "params_total": 940851,
+   "unfreeze": {
+    "rule": "from first layer named expanded_conv_8*",
+    "first_trainable_layer": "expanded_conv_8_expand",
+    "trainable_backbone_layers": 48,
+    "total_backbone_layers": 157
+   },
+   "seconds_per_step_head": 0.0542,
+   "seconds_per_step_finetune": 0.0544,
+   "conversion": {
+    "route": "Keras export + from_saved_model",
+    "fp32": {
+     "ok": true,
+     "bytes": 3764364,
+     "output_shape": [
+      1,
+      3
+     ],
+     "output_sum": 1.0
+    },
+    "int8": {
+     "ok": false,
+     "error": "RuntimeError: failed to create XNNPACK runtimeNode number 119 (TfLiteXNNPackDelegate) failed to prepare."
+    }
+   }
+  },
+  "EfficientNetB0": {
+   "params_total": 4053414,
+   "unfreeze": {
+    "rule": "from first layer named block6a*",
+    "first_trainable_layer": "block6a_expand_conv",
+    "trainable_backbone_layers": 75,
+    "total_backbone_layers": 238
+   },
+   "seconds_per_step_head": 0.0578,
+   "seconds_per_step_finetune": 0.055,
+   "conversion": {
+    "route": "Keras export + from_saved_model",
+    "fp32": {
+     "ok": true,
+     "bytes": 16079060,
+     "output_shape": [
+      1,
+      3
+     ],
+     "output_sum": 1.0
+    },
+    "int8": {
+     "ok": true,
+     "bytes": 4940648,
+     "output_shape": [
+      1,
+      3
+     ],
+     "output_sum": 0.99609375
+    }
+   }
+  }
+ },
+ "e1_upper_bound_hours": 2.9,
+ "conversion_all_ok": false
+}

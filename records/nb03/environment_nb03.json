@@ -1,0 +1,12 @@
+{
+ "notebook": "03_training",
+ "run_utc": "2026-11-04T16:20:47.025415+00:00",
+ "python": "3.13.16",
+ "tensorflow": "2.21.0",
+ "keras": "3.13.2",
+ "numpy": "2.4.6",
+ "gpu": "NVIDIA A100-SXM4-40GB, 40960 MiB",
+ "cpu_count": 12,
+ "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+ "scikit_learn": "1.6.1"
+}

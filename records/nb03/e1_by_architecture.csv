@@ -1,0 +1,7 @@
+crop,architecture,runs,mean_macro_f1,sd_macro_f1,mean_accuracy,params
+cassava,EfficientNetB0,3,0.7045,0.0152,0.8378,4053414
+cassava,MobileNetV2,3,0.6745,0.0076,0.8374,2261827
+cassava,MobileNetV3Small,3,0.6783,0.0064,0.8354,940851
+maize,EfficientNetB0,3,0.976,0.0001,0.9939,4055976
+maize,MobileNetV2,3,0.9529,0.013,0.9867,2264389
+maize,MobileNetV3Small,3,0.9474,0.0006,0.9856,942005
