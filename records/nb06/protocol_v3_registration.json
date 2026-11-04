@@ -1,0 +1,24 @@
+{
+ "protocol_version": "v3",
+ "registered_utc": "2026-11-04T22:53:12.055790+00:00",
+ "builds_on": {
+  "manifest_v2_sha256": "93463d32bcbefbbe15465ac505a08a429e5b889c9e7e421db9b6a278385f0d97",
+  "frozen_choices_v2_sha256": "438e865d1949da620454a84733eda89d109f5da3a8c888f52298f05301977115"
+ },
+ "registered_d5_archives": [
+  "maize_streak_01.rar",
+  "healthy_01.rar",
+  "faw_01.zip"
+ ],
+ "hypotheses": [
+  "H1 transfer matrix",
+  "H2 background counterfactual",
+  "H3 label-free adaptation",
+  "H4 selective INT8 + phone",
+  "H5 abstention under shift"
+ ],
+ "primary_confirmatory_endpoint": "H3: paired group-bootstrap macro-F1 (MSV + healthy) on d5_test, adapted vs unadapted Phase 1 model; confirmed if 95% CI excludes 0 and estimate >= +0.02",
+ "split_seed": 2026,
+ "split_rule": "d3c, d3m, d5: group-wise, stratified by label, 50/50 adapt/test",
+ "registration_text_markdown": " + repr(REG_MD) + r"
+}

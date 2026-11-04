@@ -1,0 +1,27 @@
+partition,source_id,original_label,images,groups
+challenge_far,D3x,Cashew/anthracnose,1701,1452
+challenge_far,D3x,Cashew/healthy,1335,1100
+challenge_far,D3x,Tomato/healthy,451,416
+challenge_far,D3x,Tomato/leaf curl,507,453
+challenge_near_cassava,D3x,Cassava/brown spot,1462,1441
+challenge_near_cassava,D3x,Cassava/green mite,1009,972
+challenge_near_maize,D3x,Maize/fall armyworm,284,277
+challenge_near_maize,D3x,Maize/grasshoper,673,664
+challenge_near_maize,D3x,Maize/leaf beetle,933,892
+challenge_near_maize,D3x,Maize/leaf blight,956,940
+challenge_near_maize,D3x,Maize/leaf spot,1027,1015
+challenge_near_maize,D5,faw,2203,2142
+d3c_adapt,D3,Cassava/bacterial blight,1297,1228
+d3c_adapt,D3,Cassava/healthy,597,426
+d3c_adapt,D3,Cassava/mosaic,557,537
+d3c_test,D3,Cassava/bacterial blight,1297,1228
+d3c_test,D3,Cassava/healthy,596,551
+d3c_test,D3,Cassava/mosaic,556,537
+d3m_adapt,D3,Maize/healthy,102,102
+d3m_adapt,D3,Maize/streak virus,483,479
+d3m_test,D3,Maize/healthy,102,102
+d3m_test,D3,Maize/streak virus,482,479
+d5_adapt,D5,healthy,1163,1139
+d5_adapt,D5,maize_streak,1823,1761
+d5_test,D5,healthy,1162,1138
+d5_test,D5,maize_streak,1823,1763

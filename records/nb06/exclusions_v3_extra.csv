@@ -1,0 +1,391 @@
+sample_id,source_id,original_label,reason
+D3x-000768,D3x,Cassava/brown spot,exact copy of a Phase 1 image
+D3x-000770,D3x,Cassava/brown spot,exact copy of a Phase 1 image
+D3x-002013,D3x,Cassava/green mite,exact copy of a Phase 1 image
+D3x-004600,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-004602,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-004603,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-004605,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-004661,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-004662,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-004663,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-004667,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-004763,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005100,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005101,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005102,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005106,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005109,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005129,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005133,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005134,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005136,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005139,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005143,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005235,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005236,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005259,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005260,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005307,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005308,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005309,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005311,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005312,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005313,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005314,D3x,Maize/leaf blight,exact copy of a Phase 1 image
+D3x-005771,D3x,Maize/leaf spot,exact copy of a Phase 1 image
+D3x-005979,D3x,Maize/leaf spot,exact copy of a Phase 1 image
+D3x-006096,D3x,Maize/leaf spot,exact copy of a Phase 1 image
+D3x-006171,D3x,Maize/leaf spot,exact copy of a Phase 1 image
+D3x-006172,D3x,Maize/leaf spot,exact copy of a Phase 1 image
+D3x-006215,D3x,Maize/leaf spot,exact copy of a Phase 1 image
+D3x-006216,D3x,Maize/leaf spot,exact copy of a Phase 1 image
+D3x-006253,D3x,Maize/leaf spot,exact copy of a Phase 1 image
+D3x-006254,D3x,Maize/leaf spot,exact copy of a Phase 1 image
+D3x-006255,D3x,Maize/leaf spot,exact copy of a Phase 1 image
+D3x-006256,D3x,Maize/leaf spot,exact copy of a Phase 1 image
+D3x-006270,D3x,Maize/leaf spot,exact copy of a Phase 1 image
+D3x-006272,D3x,Maize/leaf spot,exact copy of a Phase 1 image
+D3x-006302,D3x,Maize/leaf spot,exact copy of a Phase 1 image
+D3x-006466,D3x,Maize/leaf spot,exact copy of a Phase 1 image
+D3x-006486,D3x,Maize/leaf spot,exact copy of a Phase 1 image
+D3x-006492,D3x,Maize/leaf spot,exact copy of a Phase 1 image
+D3x-006493,D3x,Maize/leaf spot,exact copy of a Phase 1 image
+D3x-000759,D3x,Cassava/brown spot,exact duplicate within Phase 2 data
+D3x-000760,D3x,Cassava/brown spot,exact duplicate within Phase 2 data
+D3x-000771,D3x,Cassava/brown spot,exact duplicate within Phase 2 data
+D3x-000772,D3x,Cassava/brown spot,exact duplicate within Phase 2 data
+D3x-000777,D3x,Cassava/brown spot,exact duplicate within Phase 2 data
+D3x-000785,D3x,Cassava/brown spot,exact duplicate within Phase 2 data
+D3x-000813,D3x,Cassava/brown spot,exact duplicate within Phase 2 data
+D3x-000825,D3x,Cassava/brown spot,exact duplicate within Phase 2 data
+D3x-000836,D3x,Cassava/brown spot,exact duplicate within Phase 2 data
+D3x-000847,D3x,Cassava/brown spot,exact duplicate within Phase 2 data
+D3x-000858,D3x,Cassava/brown spot,exact duplicate within Phase 2 data
+D3x-000902,D3x,Cassava/brown spot,exact duplicate within Phase 2 data
+D3x-000924,D3x,Cassava/brown spot,exact duplicate within Phase 2 data
+D3x-000947,D3x,Cassava/brown spot,exact duplicate within Phase 2 data
+D3x-002779,D3x,Maize/fall armyworm,exact duplicate within Phase 2 data
+D3x-004487,D3x,Maize/leaf blight,exact duplicate within Phase 2 data
+D3x-004664,D3x,Maize/leaf blight,exact duplicate within Phase 2 data
+D3x-004728,D3x,Maize/leaf blight,exact duplicate within Phase 2 data
+D3x-005447,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005487,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005553,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005598,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005630,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005643,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005674,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005685,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005707,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005714,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005729,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005749,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005767,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005793,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005815,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005835,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005857,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005872,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005880,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005888,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005889,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005902,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005911,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005912,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005914,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005919,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005920,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005921,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005922,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005923,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005924,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005926,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005928,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005943,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005945,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005946,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005947,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005948,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005949,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005951,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005952,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005953,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005954,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005955,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005957,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005958,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005959,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005960,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005961,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005967,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005968,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005980,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005995,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005996,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005997,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005998,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-005999,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006000,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006001,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006002,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006014,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006016,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006017,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006018,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006019,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006020,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006021,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006022,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006023,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006024,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006027,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006028,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006043,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006054,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006065,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006086,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006104,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006108,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006130,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006164,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006165,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006173,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006251,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006257,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006258,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006259,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006261,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006273,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006284,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006285,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006286,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006287,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006288,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006289,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006294,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006401,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006424,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006425,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006426,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006427,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006428,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006429,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006430,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006431,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006432,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006433,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006435,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006436,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006437,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006438,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006439,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006446,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006447,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006448,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006449,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006450,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006451,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006453,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006454,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006455,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006456,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006457,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006458,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006459,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006460,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006467,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006468,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006469,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006470,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006471,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006472,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006473,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006476,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006477,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006478,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006479,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006480,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006481,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006482,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006483,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006488,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006489,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006490,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006491,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006495,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006496,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006497,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006498,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006499,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006500,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006501,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006502,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006503,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006504,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006506,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006507,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006508,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006509,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006510,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006511,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006512,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006513,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006514,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006517,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006518,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006520,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006521,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006522,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006523,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006524,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006525,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006526,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006527,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006529,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006530,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006531,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006532,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006549,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006550,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006551,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006552,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006553,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006554,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006555,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006556,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006577,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006578,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006579,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006582,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006583,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006587,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006588,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006589,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-006615,D3x,Maize/leaf spot,exact duplicate within Phase 2 data
+D3x-010137,D3x,Tomato/healthy,exact duplicate within Phase 2 data
+D3x-010157,D3x,Tomato/healthy,exact duplicate within Phase 2 data
+D3x-010178,D3x,Tomato/healthy,exact duplicate within Phase 2 data
+D5-014847,D5,healthy,exact duplicate within Phase 2 data
+D5-014900,D5,healthy,exact duplicate within Phase 2 data
+D5-016073,D5,healthy,exact duplicate within Phase 2 data
+D5-016548,D5,healthy,exact duplicate within Phase 2 data
+D5-016734,D5,faw,exact duplicate within Phase 2 data
+D3x-000043,D3x,Cassava/brown spot,near duplicate (d=6) of an image with another label
+D3x-000283,D3x,Cassava/brown spot,near duplicate (d=4) of a Phase 1 image
+D3x-001152,D3x,Cassava/brown spot,near duplicate (d=6) of a Phase 1 image
+D3x-001571,D3x,Cassava/green mite,near duplicate (d=6) of a Phase 1 image
+D3x-001732,D3x,Cassava/green mite,near duplicate (d=6) of an image with another label
+D3x-001835,D3x,Cassava/green mite,near duplicate (d=6) of an image with another label
+D3x-001913,D3x,Cassava/green mite,near duplicate (d=0) of a Phase 1 image
+D3x-002378,D3x,Cassava/green mite,near duplicate (d=6) of an image with another label
+D3x-006945,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-006964,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-006980,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-006986,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-006990,D3x,Cashew/healthy,near duplicate (d=4) of an image with another label
+D3x-007015,D3x,Cashew/healthy,near duplicate (d=6) of a Phase 1 image
+D3x-007022,D3x,Cashew/healthy,near duplicate (d=4) of an image with another label
+D3x-007023,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-007069,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-007287,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-007314,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-007345,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-007358,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-007359,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-007379,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-007391,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-007395,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-007396,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-007410,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-007446,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-007478,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-007483,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-007494,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-007522,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-007529,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-007531,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-007532,D3x,Cashew/healthy,near duplicate (d=6) of a Phase 1 image
+D3x-007546,D3x,Cashew/healthy,near duplicate (d=4) of an image with another label
+D3x-007547,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-007557,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-007565,D3x,Cashew/healthy,near duplicate (d=4) of an image with another label
+D3x-007738,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-007741,D3x,Cashew/healthy,near duplicate (d=6) of an image with another label
+D3x-008100,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-008683,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-008712,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-008893,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-008894,D3x,Cashew/anthracnose,near duplicate (d=4) of an image with another label
+D3x-008954,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-008960,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-008962,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-008972,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-008985,D3x,Cashew/anthracnose,near duplicate (d=4) of an image with another label
+D3x-008989,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-009017,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-009020,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-009031,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-009037,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-009039,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-009073,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-009085,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-009102,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-009188,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-009366,D3x,Cashew/anthracnose,near duplicate (d=4) of an image with another label
+D3x-009393,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-009396,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-009425,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-009452,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-009457,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-009666,D3x,Cashew/anthracnose,near duplicate (d=6) of a Phase 1 image
+D3x-009683,D3x,Cashew/anthracnose,near duplicate (d=6) of an image with another label
+D3x-009766,D3x,Tomato/healthy,near duplicate (d=4) of an image with another label
+D3x-009781,D3x,Tomato/healthy,near duplicate (d=6) of an image with another label
+D3x-009818,D3x,Tomato/healthy,near duplicate (d=6) of an image with another label
+D3x-009839,D3x,Tomato/healthy,near duplicate (d=6) of an image with another label
+D3x-009872,D3x,Tomato/healthy,near duplicate (d=6) of a Phase 1 image
+D3x-009931,D3x,Tomato/healthy,near duplicate (d=6) of a Phase 1 image
+D3x-009998,D3x,Tomato/healthy,near duplicate (d=6) of an image with another label
+D3x-010007,D3x,Tomato/healthy,near duplicate (d=6) of an image with another label
+D3x-010011,D3x,Tomato/healthy,near duplicate (d=6) of an image with another label
+D3x-010058,D3x,Tomato/healthy,near duplicate (d=6) of an image with another label
+D3x-010059,D3x,Tomato/healthy,near duplicate (d=6) of an image with another label
+D3x-010095,D3x,Tomato/healthy,near duplicate (d=6) of an image with another label
+D3x-010207,D3x,Tomato/leaf curl,near duplicate (d=6) of a Phase 1 image
+D3x-010222,D3x,Tomato/leaf curl,near duplicate (d=6) of an image with another label
+D3x-010478,D3x,Tomato/leaf curl,near duplicate (d=6) of an image with another label
+D3x-010552,D3x,Tomato/leaf curl,near duplicate (d=6) of an image with another label
+D5-010982,D5,maize_streak,near duplicate (d=6) of an image with another label
+D5-011042,D5,maize_streak,near duplicate (d=6) of an image with another label
+D5-011231,D5,maize_streak,near duplicate (d=6) of an image with another label
+D5-011249,D5,maize_streak,near duplicate (d=6) of an image with another label
+D5-011284,D5,maize_streak,near duplicate (d=6) of a Phase 1 image
+D5-011325,D5,maize_streak,near duplicate (d=4) of an image with another label
+D5-011742,D5,maize_streak,near duplicate (d=2) of an image with another label
+D5-012014,D5,maize_streak,near duplicate (d=6) of an image with another label
+D5-012614,D5,maize_streak,near duplicate (d=6) of an image with another label
+D5-012659,D5,maize_streak,near duplicate (d=6) of a Phase 1 image
+D5-012672,D5,maize_streak,near duplicate (d=6) of an image with another label
+D5-013179,D5,maize_streak,near duplicate (d=6) of an image with another label
+D5-013431,D5,maize_streak,near duplicate (d=6) of an image with another label
+D5-013762,D5,maize_streak,near duplicate (d=6) of an image with another label
+D5-013908,D5,maize_streak,near duplicate (d=6) of an image with another label
+D5-014479,D5,healthy,near duplicate (d=6) of an image with another label
+D5-015565,D5,healthy,near duplicate (d=6) of an image with another label
+D5-015808,D5,healthy,near duplicate (d=6) of an image with another label
+D5-016000,D5,healthy,near duplicate (d=6) of an image with another label
+D5-016246,D5,healthy,near duplicate (d=6) of an image with another label
+D5-016489,D5,healthy,near duplicate (d=6) of an image with another label
+D5-016550,D5,healthy,near duplicate (d=2) of an image with another label
+D5-016565,D5,healthy,near duplicate (d=6) of an image with another label
+D5-016612,D5,healthy,near duplicate (d=6) of an image with another label
+D5-016947,D5,faw,near duplicate (d=6) of an image with another label
+D5-017058,D5,faw,near duplicate (d=4) of an image with another label
+D5-017062,D5,faw,near duplicate (d=6) of an image with another label
+D5-017229,D5,faw,near duplicate (d=6) of an image with another label
+D5-017319,D5,faw,near duplicate (d=6) of an image with another label
+D5-017334,D5,faw,near duplicate (d=6) of an image with another label
+D5-018168,D5,faw,near duplicate (d=6) of an image with another label
+D5-018219,D5,faw,near duplicate (d=6) of an image with another label
+D5-018253,D5,faw,near duplicate (d=4) of an image with another label

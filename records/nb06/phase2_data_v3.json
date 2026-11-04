@@ -1,0 +1,73 @@
+{
+ "manifest_v3": "manifest_v3.csv",
+ "sha256": "51961e1b592a6fbad0ffb96d6387ff57db15798466180e3a6dc6193c4adc9b61",
+ "rows": 56620,
+ "d5_test_images": 2985,
+ "d5_test_groups": 2901,
+ "sealed_utc": "2026-11-04T23:17:27.616366+00:00",
+ "rule": "d5_test rows may not be loaded, scored or inspected before frozen_choices_v3.json exists; d3c_test, d3m_test, d5_test are never trained on or adapted to",
+ "near_duplicate_stats": {
+  "new_vs_phase1_d<=6": 13,
+  "new_vs_phase1_d8": 50,
+  "new_vs_new_d<=8": 2092,
+  "new_vs_new_label_conflict_d<=6": 68
+ },
+ "archives": {
+  "D3x": {
+   "working": {
+    "tar": "working_D3x.tar",
+    "sha256": "da2eb3a10c50838b45035e40809aac040f27d2413a9a9da8a2c58a4fad730e67",
+    "bytes": 565800960
+   },
+   "n": 10752,
+   "mismatches": 0
+  },
+  "D5": {
+   "archives": {
+    "maize_streak_01.rar": {
+     "dataverse_file_id": 6417320,
+     "md5": "628da79bf49b0f4caf1b1c54eeedadbe",
+     "published_md5": "628da79bf49b0f4caf1b1c54eeedadbe",
+     "md5_match": true,
+     "sha256": "f8c048fdf1ebb0015fca7c69944f8e57559ce505c4562e2e99fedfa2ee42da6e",
+     "bytes": 1910669961,
+     "retrieved_utc": "2026-11-04T23:10:40.785581+00:00"
+    },
+    "healthy_01.rar": {
+     "dataverse_file_id": 6417970,
+     "md5": "96ffe973414f0daee34adfda505c09cc",
+     "published_md5": "96ffe973414f0daee34adfda505c09cc",
+     "md5_match": true,
+     "sha256": "3959dc5f286f2f9b07ee70ea81f556a4788334c8ed4aeaf900357f5652e9ca0e",
+     "bytes": 2344875657,
+     "retrieved_utc": "2026-11-04T23:13:03.546353+00:00"
+    },
+    "faw_01.zip": {
+     "dataverse_file_id": 6418125,
+     "md5": "4915771858f68b3a43a11da6fffb2c3a",
+     "published_md5": "4915771858f68b3a43a11da6fffb2c3a",
+     "md5_match": true,
+     "sha256": "a84d09619e301700023906feb603ad70cbe2de24b74598c161f14dbf545c6994",
+     "bytes": 2268233589,
+     "retrieved_utc": "2026-11-04T23:15:20.022475+00:00"
+    }
+   },
+   "working": {
+    "tar": "working_D5.tar",
+    "sha256": "f0d17f922c215e289e4a4a8e0f0d49d54c6e798f58ac589f11815814ac0c9e33",
+    "bytes": 691271680
+   },
+   "n": 8212
+  }
+ },
+ "registration_sha256": "af079a2b2fa87bbc036691c13e0cd8cb95f2e6c7f7e3c34c28008cfaef61824b",
+ "environment": {
+  "notebook": "06_phase2_data",
+  "run_utc": "2026-11-04T22:53:13.595800+00:00",
+  "python": "3.13.18",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "cpu_count": 8,
+  "numpy": "2.4.6",
+  "pandas": "2.2.3"
+ }
+}
