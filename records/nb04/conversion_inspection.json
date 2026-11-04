@@ -1,0 +1,1256 @@
+[
+ {
+  "crop": "cassava",
+  "architecture": "EfficientNetB0",
+  "seed": 17,
+  "format": "fp32",
+  "file": "models/cassava/cassava_EfficientNetB0_s17_fp32.tflite",
+  "bytes": 16085204,
+  "MiB": 15.34,
+  "sha256": "6c9e31136cbc27adb8dd4ecea116c823ad99c26784b91ec2e6a2ab59a785b422",
+  "convert_seconds": 6.7,
+  "inspection": {
+   "inputs": [
+    {
+     "name": "serving_default_image_0_255:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      224,
+      224,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "name": "StatefulPartitionedCall_1:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "tensor_dtypes": {
+    "float32": 427,
+    "int32": 59
+   },
+   "operators": {
+    "MUL": 68,
+    "CONV_2D": 65,
+    "LOGISTIC": 65,
+    "DELEGATE": 17,
+    "MEAN": 17,
+    "PACK": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "STRIDED_SLICE": 16,
+    "SHAPE": 16,
+    "RESHAPE": 16,
+    "ADD": 9,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1
+   },
+   "quantize_dequantize_ops": 0,
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "parity_max_abs_prob_diff_vs_keras": 0.00194721136797682,
+  "parity_top1_agreement_vs_keras": 1.0,
+  "parity_images": 6,
+  "interpreter_path": "default (XNNPACK)"
+ },
+ {
+  "crop": "cassava",
+  "architecture": "EfficientNetB0",
+  "seed": 17,
+  "format": "fp16",
+  "file": "models/cassava/cassava_EfficientNetB0_s17_fp16.tflite",
+  "bytes": 8151428,
+  "MiB": 7.774,
+  "sha256": "458365a8df1778a0299cd46b05fc3801332e309f3db4bb45183b30f3e29acd3a",
+  "convert_seconds": 6.2,
+  "inspection": {
+   "inputs": [
+    {
+     "name": "serving_default_image_0_255:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      224,
+      224,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "name": "StatefulPartitionedCall_1:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "tensor_dtypes": {
+    "float32": 427,
+    "float16": 168,
+    "int32": 59
+   },
+   "operators": {
+    "DEQUANTIZE": 168,
+    "MUL": 68,
+    "CONV_2D": 65,
+    "LOGISTIC": 65,
+    "DELEGATE": 17,
+    "MEAN": 17,
+    "PACK": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "STRIDED_SLICE": 16,
+    "SHAPE": 16,
+    "RESHAPE": 16,
+    "ADD": 9,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1
+   },
+   "quantize_dequantize_ops": 168,
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "parity_max_abs_prob_diff_vs_keras": 0.004582586682875367,
+  "parity_top1_agreement_vs_keras": 1.0,
+  "parity_images": 6,
+  "interpreter_path": "default (XNNPACK)"
+ },
+ {
+  "crop": "cassava",
+  "architecture": "EfficientNetB0",
+  "seed": 17,
+  "format": "int8",
+  "file": "models/cassava/cassava_EfficientNetB0_s17_int8.tflite",
+  "bytes": 4946608,
+  "MiB": 4.717,
+  "sha256": "a5f9afd7cea1919b10fd96e26cdcd3c355592621df8d1ebc73276d4a74233eb8",
+  "convert_seconds": 133.7,
+  "inspection": {
+   "inputs": [
+    {
+     "name": "serving_default_image_0_255:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      224,
+      224,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "name": "StatefulPartitionedCall_1:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "tensor_dtypes": {
+    "int8": 345,
+    "int32": 141,
+    "float32": 2
+   },
+   "operators": {
+    "MUL": 68,
+    "LOGISTIC": 65,
+    "CONV_2D": 65,
+    "MEAN": 17,
+    "DELEGATE": 17,
+    "SHAPE": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "RESHAPE": 16,
+    "STRIDED_SLICE": 16,
+    "PACK": 16,
+    "ADD": 9,
+    "QUANTIZE": 1,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1,
+    "DEQUANTIZE": 1
+   },
+   "quantize_dequantize_ops": 2,
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "parity_max_abs_prob_diff_vs_keras": 0.34187274347261376,
+  "parity_top1_agreement_vs_keras": 1.0,
+  "parity_images": 6,
+  "interpreter_path": "default (XNNPACK)"
+ },
+ {
+  "crop": "cassava",
+  "architecture": "EfficientNetB0",
+  "seed": 42,
+  "format": "fp32",
+  "file": "models/cassava/cassava_EfficientNetB0_s42_fp32.tflite",
+  "bytes": 16085204,
+  "MiB": 15.34,
+  "sha256": "5592a2e17f8fac98b82fac008288884f2c19c2db4dad810dc3e50724969f2b87",
+  "convert_seconds": 6.2,
+  "inspection": {
+   "inputs": [
+    {
+     "name": "serving_default_image_0_255:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      224,
+      224,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "name": "StatefulPartitionedCall_1:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "tensor_dtypes": {
+    "float32": 427,
+    "int32": 59
+   },
+   "operators": {
+    "MUL": 68,
+    "CONV_2D": 65,
+    "LOGISTIC": 65,
+    "DELEGATE": 17,
+    "MEAN": 17,
+    "PACK": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "STRIDED_SLICE": 16,
+    "SHAPE": 16,
+    "RESHAPE": 16,
+    "ADD": 9,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1
+   },
+   "quantize_dequantize_ops": 0,
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "parity_max_abs_prob_diff_vs_keras": 0.0012528153302544254,
+  "parity_top1_agreement_vs_keras": 1.0,
+  "parity_images": 6,
+  "interpreter_path": "default (XNNPACK)"
+ },
+ {
+  "crop": "cassava",
+  "architecture": "EfficientNetB0",
+  "seed": 42,
+  "format": "fp16",
+  "file": "models/cassava/cassava_EfficientNetB0_s42_fp16.tflite",
+  "bytes": 8151428,
+  "MiB": 7.774,
+  "sha256": "c8a9ae66b0a219af132aca8b297df9224f27ded858768e4e6377dde08f8d9bad",
+  "convert_seconds": 6.4,
+  "inspection": {
+   "inputs": [
+    {
+     "name": "serving_default_image_0_255:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      224,
+      224,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "name": "StatefulPartitionedCall_1:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "tensor_dtypes": {
+    "float32": 427,
+    "float16": 168,
+    "int32": 59
+   },
+   "operators": {
+    "DEQUANTIZE": 168,
+    "MUL": 68,
+    "CONV_2D": 65,
+    "LOGISTIC": 65,
+    "DELEGATE": 17,
+    "MEAN": 17,
+    "PACK": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "STRIDED_SLICE": 16,
+    "SHAPE": 16,
+    "RESHAPE": 16,
+    "ADD": 9,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1
+   },
+   "quantize_dequantize_ops": 168,
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "parity_max_abs_prob_diff_vs_keras": 0.002868825498879457,
+  "parity_top1_agreement_vs_keras": 1.0,
+  "parity_images": 6,
+  "interpreter_path": "default (XNNPACK)"
+ },
+ {
+  "crop": "cassava",
+  "architecture": "EfficientNetB0",
+  "seed": 42,
+  "format": "int8",
+  "file": "models/cassava/cassava_EfficientNetB0_s42_int8.tflite",
+  "bytes": 4946608,
+  "MiB": 4.717,
+  "sha256": "8dd5eab0feb47c0004d6e090ace5f6d351243ddfa06f3c55169c8223da46e722",
+  "convert_seconds": 138.5,
+  "inspection": {
+   "inputs": [
+    {
+     "name": "serving_default_image_0_255:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      224,
+      224,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "name": "StatefulPartitionedCall_1:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "tensor_dtypes": {
+    "int8": 345,
+    "int32": 141,
+    "float32": 2
+   },
+   "operators": {
+    "MUL": 68,
+    "LOGISTIC": 65,
+    "CONV_2D": 65,
+    "MEAN": 17,
+    "DELEGATE": 17,
+    "SHAPE": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "RESHAPE": 16,
+    "STRIDED_SLICE": 16,
+    "PACK": 16,
+    "ADD": 9,
+    "QUANTIZE": 1,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1,
+    "DEQUANTIZE": 1
+   },
+   "quantize_dequantize_ops": 2,
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "parity_max_abs_prob_diff_vs_keras": 0.3298390492208173,
+  "parity_top1_agreement_vs_keras": 1.0,
+  "parity_images": 6,
+  "interpreter_path": "default (XNNPACK)"
+ },
+ {
+  "crop": "cassava",
+  "architecture": "EfficientNetB0",
+  "seed": 2026,
+  "format": "fp32",
+  "file": "models/cassava/cassava_EfficientNetB0_s2026_fp32.tflite",
+  "bytes": 16085204,
+  "MiB": 15.34,
+  "sha256": "057141b69852400dad02d006c36747069e29b9ae8f3b77582803f16d8cca6768",
+  "convert_seconds": 7.4,
+  "inspection": {
+   "inputs": [
+    {
+     "name": "serving_default_image_0_255:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      224,
+      224,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "name": "StatefulPartitionedCall_1:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "tensor_dtypes": {
+    "float32": 427,
+    "int32": 59
+   },
+   "operators": {
+    "MUL": 68,
+    "CONV_2D": 65,
+    "LOGISTIC": 65,
+    "DELEGATE": 17,
+    "MEAN": 17,
+    "PACK": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "STRIDED_SLICE": 16,
+    "SHAPE": 16,
+    "RESHAPE": 16,
+    "ADD": 9,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1
+   },
+   "quantize_dequantize_ops": 0,
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "parity_max_abs_prob_diff_vs_keras": 0.001364520463354224,
+  "parity_top1_agreement_vs_keras": 1.0,
+  "parity_images": 6,
+  "interpreter_path": "default (XNNPACK)"
+ },
+ {
+  "crop": "cassava",
+  "architecture": "EfficientNetB0",
+  "seed": 2026,
+  "format": "fp16",
+  "file": "models/cassava/cassava_EfficientNetB0_s2026_fp16.tflite",
+  "bytes": 8151428,
+  "MiB": 7.774,
+  "sha256": "4e995a67ca1acd892d4c07bab621ca6a1840b290e12d96030596331494ed45dc",
+  "convert_seconds": 6.5,
+  "inspection": {
+   "inputs": [
+    {
+     "name": "serving_default_image_0_255:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      224,
+      224,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "name": "StatefulPartitionedCall_1:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "tensor_dtypes": {
+    "float32": 427,
+    "float16": 168,
+    "int32": 59
+   },
+   "operators": {
+    "DEQUANTIZE": 168,
+    "MUL": 68,
+    "CONV_2D": 65,
+    "LOGISTIC": 65,
+    "DELEGATE": 17,
+    "MEAN": 17,
+    "PACK": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "STRIDED_SLICE": 16,
+    "SHAPE": 16,
+    "RESHAPE": 16,
+    "ADD": 9,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1
+   },
+   "quantize_dequantize_ops": 168,
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "parity_max_abs_prob_diff_vs_keras": 0.0015151751155827453,
+  "parity_top1_agreement_vs_keras": 1.0,
+  "parity_images": 6,
+  "interpreter_path": "default (XNNPACK)"
+ },
+ {
+  "crop": "cassava",
+  "architecture": "EfficientNetB0",
+  "seed": 2026,
+  "format": "int8",
+  "file": "models/cassava/cassava_EfficientNetB0_s2026_int8.tflite",
+  "bytes": 4946608,
+  "MiB": 4.717,
+  "sha256": "fcaaef6fbed774f2eaef1a9a59925cce512f2f63807e196ebbf1b1467a029ace",
+  "convert_seconds": 133.6,
+  "inspection": {
+   "inputs": [
+    {
+     "name": "serving_default_image_0_255:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      224,
+      224,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "name": "StatefulPartitionedCall_1:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "tensor_dtypes": {
+    "int8": 345,
+    "int32": 141,
+    "float32": 2
+   },
+   "operators": {
+    "MUL": 68,
+    "LOGISTIC": 65,
+    "CONV_2D": 65,
+    "MEAN": 17,
+    "DELEGATE": 17,
+    "SHAPE": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "RESHAPE": 16,
+    "STRIDED_SLICE": 16,
+    "PACK": 16,
+    "ADD": 9,
+    "QUANTIZE": 1,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1,
+    "DEQUANTIZE": 1
+   },
+   "quantize_dequantize_ops": 2,
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "parity_max_abs_prob_diff_vs_keras": 0.47618941325944264,
+  "parity_top1_agreement_vs_keras": 0.8333333333333334,
+  "parity_images": 6,
+  "interpreter_path": "default (XNNPACK)"
+ },
+ {
+  "crop": "maize",
+  "architecture": "EfficientNetB0",
+  "seed": 17,
+  "format": "fp32",
+  "file": "models/maize/maize_EfficientNetB0_s17_fp32.tflite",
+  "bytes": 16095452,
+  "MiB": 15.35,
+  "sha256": "befc0105fe0ac002a3c18941365a2a73a7e719e8bf84b166386d67adec3d39ca",
+  "convert_seconds": 6.8,
+  "inspection": {
+   "inputs": [
+    {
+     "name": "serving_default_image_0_255:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      224,
+      224,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "name": "StatefulPartitionedCall_1:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      5
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "tensor_dtypes": {
+    "float32": 427,
+    "int32": 59
+   },
+   "operators": {
+    "MUL": 68,
+    "CONV_2D": 65,
+    "LOGISTIC": 65,
+    "DELEGATE": 17,
+    "MEAN": 17,
+    "PACK": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "STRIDED_SLICE": 16,
+    "SHAPE": 16,
+    "RESHAPE": 16,
+    "ADD": 9,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1
+   },
+   "quantize_dequantize_ops": 0,
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "parity_max_abs_prob_diff_vs_keras": 0.0002261879344790385,
+  "parity_top1_agreement_vs_keras": 1.0,
+  "parity_images": 10,
+  "interpreter_path": "default (XNNPACK)"
+ },
+ {
+  "crop": "maize",
+  "architecture": "EfficientNetB0",
+  "seed": 17,
+  "format": "fp16",
+  "file": "models/maize/maize_EfficientNetB0_s17_fp16.tflite",
+  "bytes": 8156552,
+  "MiB": 7.779,
+  "sha256": "176ef8641604599a44978fd19d25fb2dec12e012111af022d23474561886f1ae",
+  "convert_seconds": 6.8,
+  "inspection": {
+   "inputs": [
+    {
+     "name": "serving_default_image_0_255:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      224,
+      224,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "name": "StatefulPartitionedCall_1:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      5
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "tensor_dtypes": {
+    "float32": 427,
+    "float16": 168,
+    "int32": 59
+   },
+   "operators": {
+    "DEQUANTIZE": 168,
+    "MUL": 68,
+    "CONV_2D": 65,
+    "LOGISTIC": 65,
+    "DELEGATE": 17,
+    "MEAN": 17,
+    "PACK": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "STRIDED_SLICE": 16,
+    "SHAPE": 16,
+    "RESHAPE": 16,
+    "ADD": 9,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1
+   },
+   "quantize_dequantize_ops": 168,
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "parity_max_abs_prob_diff_vs_keras": 0.0010719132408734122,
+  "parity_top1_agreement_vs_keras": 1.0,
+  "parity_images": 10,
+  "interpreter_path": "default (XNNPACK)"
+ },
+ {
+  "crop": "maize",
+  "architecture": "EfficientNetB0",
+  "seed": 17,
+  "format": "int8",
+  "file": "models/maize/maize_EfficientNetB0_s17_int8.tflite",
+  "bytes": 4949224,
+  "MiB": 4.72,
+  "sha256": "c1974cefa27013aaafa1752527100d902feaffbd4c67777054c438cd4fc66989",
+  "convert_seconds": 133.9,
+  "inspection": {
+   "inputs": [
+    {
+     "name": "serving_default_image_0_255:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      224,
+      224,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "name": "StatefulPartitionedCall_1:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      5
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "tensor_dtypes": {
+    "int8": 345,
+    "int32": 141,
+    "float32": 2
+   },
+   "operators": {
+    "MUL": 68,
+    "LOGISTIC": 65,
+    "CONV_2D": 65,
+    "MEAN": 17,
+    "DELEGATE": 17,
+    "SHAPE": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "RESHAPE": 16,
+    "STRIDED_SLICE": 16,
+    "PACK": 16,
+    "ADD": 9,
+    "QUANTIZE": 1,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1,
+    "DEQUANTIZE": 1
+   },
+   "quantize_dequantize_ops": 2,
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "parity_max_abs_prob_diff_vs_keras": 0.7220479026927964,
+  "parity_top1_agreement_vs_keras": 0.9,
+  "parity_images": 10,
+  "interpreter_path": "default (XNNPACK)"
+ },
+ {
+  "crop": "maize",
+  "architecture": "EfficientNetB0",
+  "seed": 42,
+  "format": "fp32",
+  "file": "models/maize/maize_EfficientNetB0_s42_fp32.tflite",
+  "bytes": 16095452,
+  "MiB": 15.35,
+  "sha256": "73a1c3985ab68fc47970254b852ec2b6f34107ef82d94a4ec35f96bab559caa1",
+  "convert_seconds": 7.0,
+  "inspection": {
+   "inputs": [
+    {
+     "name": "serving_default_image_0_255:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      224,
+      224,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "name": "StatefulPartitionedCall_1:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      5
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "tensor_dtypes": {
+    "float32": 427,
+    "int32": 59
+   },
+   "operators": {
+    "MUL": 68,
+    "CONV_2D": 65,
+    "LOGISTIC": 65,
+    "DELEGATE": 17,
+    "MEAN": 17,
+    "PACK": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "STRIDED_SLICE": 16,
+    "SHAPE": 16,
+    "RESHAPE": 16,
+    "ADD": 9,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1
+   },
+   "quantize_dequantize_ops": 0,
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "parity_max_abs_prob_diff_vs_keras": 0.0014781252220879004,
+  "parity_top1_agreement_vs_keras": 1.0,
+  "parity_images": 10,
+  "interpreter_path": "default (XNNPACK)"
+ },
+ {
+  "crop": "maize",
+  "architecture": "EfficientNetB0",
+  "seed": 42,
+  "format": "fp16",
+  "file": "models/maize/maize_EfficientNetB0_s42_fp16.tflite",
+  "bytes": 8156552,
+  "MiB": 7.779,
+  "sha256": "fede5d9054c259d95c6785c9edb4822f28b09945d2b3128a4f333c7edcfb3c70",
+  "convert_seconds": 7.0,
+  "inspection": {
+   "inputs": [
+    {
+     "name": "serving_default_image_0_255:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      224,
+      224,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "name": "StatefulPartitionedCall_1:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      5
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "tensor_dtypes": {
+    "float32": 427,
+    "float16": 168,
+    "int32": 59
+   },
+   "operators": {
+    "DEQUANTIZE": 168,
+    "MUL": 68,
+    "CONV_2D": 65,
+    "LOGISTIC": 65,
+    "DELEGATE": 17,
+    "MEAN": 17,
+    "PACK": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "STRIDED_SLICE": 16,
+    "SHAPE": 16,
+    "RESHAPE": 16,
+    "ADD": 9,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1
+   },
+   "quantize_dequantize_ops": 168,
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "parity_max_abs_prob_diff_vs_keras": 0.0037665420520270887,
+  "parity_top1_agreement_vs_keras": 1.0,
+  "parity_images": 10,
+  "interpreter_path": "default (XNNPACK)"
+ },
+ {
+  "crop": "maize",
+  "architecture": "EfficientNetB0",
+  "seed": 42,
+  "format": "int8",
+  "file": "models/maize/maize_EfficientNetB0_s42_int8.tflite",
+  "bytes": 4949224,
+  "MiB": 4.72,
+  "sha256": "0af5fd20e0578a128ea80b8eb4962c3292b27eb9a6d0b01ec5a899ca24bdfd07",
+  "convert_seconds": 134.7,
+  "inspection": {
+   "inputs": [
+    {
+     "name": "serving_default_image_0_255:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      224,
+      224,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "name": "StatefulPartitionedCall_1:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      5
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "tensor_dtypes": {
+    "int8": 345,
+    "int32": 141,
+    "float32": 2
+   },
+   "operators": {
+    "MUL": 68,
+    "LOGISTIC": 65,
+    "CONV_2D": 65,
+    "MEAN": 17,
+    "DELEGATE": 17,
+    "SHAPE": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "RESHAPE": 16,
+    "STRIDED_SLICE": 16,
+    "PACK": 16,
+    "ADD": 9,
+    "QUANTIZE": 1,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1,
+    "DEQUANTIZE": 1
+   },
+   "quantize_dequantize_ops": 2,
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "parity_max_abs_prob_diff_vs_keras": 0.5285242668738411,
+  "parity_top1_agreement_vs_keras": 0.9,
+  "parity_images": 10,
+  "interpreter_path": "default (XNNPACK)"
+ },
+ {
+  "crop": "maize",
+  "architecture": "EfficientNetB0",
+  "seed": 2026,
+  "format": "fp32",
+  "file": "models/maize/maize_EfficientNetB0_s2026_fp32.tflite",
+  "bytes": 16095452,
+  "MiB": 15.35,
+  "sha256": "3f8d4bd4244a0556f0a2c32aca4eb754441ee4a3a1bd8bb57e515d892d7d3c87",
+  "convert_seconds": 7.2,
+  "inspection": {
+   "inputs": [
+    {
+     "name": "serving_default_image_0_255:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      224,
+      224,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "name": "StatefulPartitionedCall_1:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      5
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "tensor_dtypes": {
+    "float32": 427,
+    "int32": 59
+   },
+   "operators": {
+    "MUL": 68,
+    "CONV_2D": 65,
+    "LOGISTIC": 65,
+    "DELEGATE": 17,
+    "MEAN": 17,
+    "PACK": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "STRIDED_SLICE": 16,
+    "SHAPE": 16,
+    "RESHAPE": 16,
+    "ADD": 9,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1
+   },
+   "quantize_dequantize_ops": 0,
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "parity_max_abs_prob_diff_vs_keras": 0.00023674242171101145,
+  "parity_top1_agreement_vs_keras": 1.0,
+  "parity_images": 10,
+  "interpreter_path": "default (XNNPACK)"
+ },
+ {
+  "crop": "maize",
+  "architecture": "EfficientNetB0",
+  "seed": 2026,
+  "format": "fp16",
+  "file": "models/maize/maize_EfficientNetB0_s2026_fp16.tflite",
+  "bytes": 8156552,
+  "MiB": 7.779,
+  "sha256": "65b1be11fa91cf4d5ef65be1ef0b209e05c80f97ca4645dec14001a7dd0585dc",
+  "convert_seconds": 7.3,
+  "inspection": {
+   "inputs": [
+    {
+     "name": "serving_default_image_0_255:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      224,
+      224,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "name": "StatefulPartitionedCall_1:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      5
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "tensor_dtypes": {
+    "float32": 427,
+    "float16": 168,
+    "int32": 59
+   },
+   "operators": {
+    "DEQUANTIZE": 168,
+    "MUL": 68,
+    "CONV_2D": 65,
+    "LOGISTIC": 65,
+    "DELEGATE": 17,
+    "MEAN": 17,
+    "PACK": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "STRIDED_SLICE": 16,
+    "SHAPE": 16,
+    "RESHAPE": 16,
+    "ADD": 9,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1
+   },
+   "quantize_dequantize_ops": 168,
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "parity_max_abs_prob_diff_vs_keras": 0.00413586813611444,
+  "parity_top1_agreement_vs_keras": 1.0,
+  "parity_images": 10,
+  "interpreter_path": "default (XNNPACK)"
+ },
+ {
+  "crop": "maize",
+  "architecture": "EfficientNetB0",
+  "seed": 2026,
+  "format": "int8",
+  "file": "models/maize/maize_EfficientNetB0_s2026_int8.tflite",
+  "bytes": 4949224,
+  "MiB": 4.72,
+  "sha256": "498bcbd43e38ac83d85dc8894ed6d586e8845c5f55184a33297c621f24cc9500",
+  "convert_seconds": 134.3,
+  "inspection": {
+   "inputs": [
+    {
+     "name": "serving_default_image_0_255:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      224,
+      224,
+      3
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "outputs": [
+    {
+     "name": "StatefulPartitionedCall_1:0",
+     "dtype": "float32",
+     "shape": [
+      1,
+      5
+     ],
+     "quantization": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "tensor_dtypes": {
+    "int8": 345,
+    "int32": 141,
+    "float32": 2
+   },
+   "operators": {
+    "MUL": 68,
+    "LOGISTIC": 65,
+    "CONV_2D": 65,
+    "MEAN": 17,
+    "DELEGATE": 17,
+    "SHAPE": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "RESHAPE": 16,
+    "STRIDED_SLICE": 16,
+    "PACK": 16,
+    "ADD": 9,
+    "QUANTIZE": 1,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1,
+    "DEQUANTIZE": 1
+   },
+   "quantize_dequantize_ops": 2,
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "parity_max_abs_prob_diff_vs_keras": 0.5126448438228257,
+  "parity_top1_agreement_vs_keras": 0.9,
+  "parity_images": 10,
+  "interpreter_path": "default (XNNPACK)"
+ }
+]

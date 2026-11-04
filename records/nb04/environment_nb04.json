@@ -1,0 +1,12 @@
+{
+ "notebook": "04_conversion_calibration",
+ "run_utc": "2026-11-04T20:11:57.014639+00:00",
+ "python": "3.13.16",
+ "tensorflow": "2.21.0",
+ "keras": "3.13.2",
+ "numpy": "2.4.6",
+ "litert_interpreter": "tf.lite (bundled with TensorFlow)",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "cpu_count": 12,
+ "platform": "Linux-6.6.159+-x86_64-with-glibc2.39"
+}

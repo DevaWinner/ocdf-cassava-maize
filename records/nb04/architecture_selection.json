@@ -1,0 +1,50 @@
+{
+ "cassava": {
+  "architecture": "EfficientNetB0",
+  "reason": "highest mean selection macro-F1 (0.7045); no other architecture within 0.01",
+  "e1": [
+   {
+    "architecture": "EfficientNetB0",
+    "mean_macro_f1": 0.7045,
+    "std": 0.0152,
+    "count": 3
+   },
+   {
+    "architecture": "MobileNetV2",
+    "mean_macro_f1": 0.6745,
+    "std": 0.0076,
+    "count": 3
+   },
+   {
+    "architecture": "MobileNetV3Small",
+    "mean_macro_f1": 0.6783,
+    "std": 0.0064,
+    "count": 3
+   }
+  ]
+ },
+ "maize": {
+  "architecture": "EfficientNetB0",
+  "reason": "highest mean selection macro-F1 (0.9760); no other architecture within 0.01",
+  "e1": [
+   {
+    "architecture": "EfficientNetB0",
+    "mean_macro_f1": 0.976,
+    "std": 0.0001,
+    "count": 3
+   },
+   {
+    "architecture": "MobileNetV2",
+    "mean_macro_f1": 0.9529,
+    "std": 0.013,
+    "count": 3
+   },
+   {
+    "architecture": "MobileNetV3Small",
+    "mean_macro_f1": 0.9474,
+    "std": 0.0006,
+    "count": 3
+   }
+  ]
+ }
+}
