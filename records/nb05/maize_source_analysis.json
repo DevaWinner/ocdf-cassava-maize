@@ -1,0 +1,144 @@
+{
+ "healthy_recall_by_source": [
+  {
+   "seed": 17,
+   "format": "fp32",
+   "source": "D4",
+   "healthy_images": 512,
+   "healthy_recall": 1.0
+  },
+  {
+   "seed": 17,
+   "format": "fp32",
+   "source": "D6",
+   "healthy_images": 116,
+   "healthy_recall": 1.0
+  },
+  {
+   "seed": 17,
+   "format": "fp16",
+   "source": "D4",
+   "healthy_images": 512,
+   "healthy_recall": 1.0
+  },
+  {
+   "seed": 17,
+   "format": "fp16",
+   "source": "D6",
+   "healthy_images": 116,
+   "healthy_recall": 1.0
+  },
+  {
+   "seed": 17,
+   "format": "int8",
+   "source": "D4",
+   "healthy_images": 512,
+   "healthy_recall": 0.9921875
+  },
+  {
+   "seed": 17,
+   "format": "int8",
+   "source": "D6",
+   "healthy_images": 116,
+   "healthy_recall": 0.9482758620689655
+  },
+  {
+   "seed": 42,
+   "format": "fp32",
+   "source": "D4",
+   "healthy_images": 512,
+   "healthy_recall": 1.0
+  },
+  {
+   "seed": 42,
+   "format": "fp32",
+   "source": "D6",
+   "healthy_images": 116,
+   "healthy_recall": 1.0
+  },
+  {
+   "seed": 42,
+   "format": "fp16",
+   "source": "D4",
+   "healthy_images": 512,
+   "healthy_recall": 1.0
+  },
+  {
+   "seed": 42,
+   "format": "fp16",
+   "source": "D6",
+   "healthy_images": 116,
+   "healthy_recall": 1.0
+  },
+  {
+   "seed": 42,
+   "format": "int8",
+   "source": "D4",
+   "healthy_images": 512,
+   "healthy_recall": 0.990234375
+  },
+  {
+   "seed": 42,
+   "format": "int8",
+   "source": "D6",
+   "healthy_images": 116,
+   "healthy_recall": 0.9137931034482759
+  },
+  {
+   "seed": 2026,
+   "format": "fp32",
+   "source": "D4",
+   "healthy_images": 512,
+   "healthy_recall": 1.0
+  },
+  {
+   "seed": 2026,
+   "format": "fp32",
+   "source": "D6",
+   "healthy_images": 116,
+   "healthy_recall": 1.0
+  },
+  {
+   "seed": 2026,
+   "format": "fp16",
+   "source": "D4",
+   "healthy_images": 512,
+   "healthy_recall": 1.0
+  },
+  {
+   "seed": 2026,
+   "format": "fp16",
+   "source": "D6",
+   "healthy_images": 116,
+   "healthy_recall": 1.0
+  },
+  {
+   "seed": 2026,
+   "format": "int8",
+   "source": "D4",
+   "healthy_images": 512,
+   "healthy_recall": 0.99609375
+  },
+  {
+   "seed": 2026,
+   "format": "int8",
+   "source": "D6",
+   "healthy_images": 116,
+   "healthy_recall": 0.9482758620689655
+  }
+ ],
+ "source_classifier": {
+  "features": "EfficientNetB0 seed 42 global-average-pooled features (Keras model, frozen)",
+  "train_images": {
+   "D4": 3580,
+   "D6": 812
+  },
+  "test_images": {
+   "D4": 512,
+   "D6": 116
+  },
+  "test_accuracy": 1.0,
+  "test_balanced_accuracy": 1.0,
+  "test_auc": 1.0
+ }
+}

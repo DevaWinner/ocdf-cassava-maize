@@ -1,0 +1,13 @@
+{
+ "notebook": "05_testing_evaluation",
+ "run_utc": "2026-11-04T20:47:10.976718+00:00",
+ "python": "3.13.16",
+ "tensorflow": "2.21.0",
+ "keras": "3.13.2",
+ "numpy": "2.4.6",
+ "litert_interpreter": "tf.lite (bundled with TensorFlow)",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "cpu_count": 12,
+ "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+ "scikit_learn": "1.6.1"
+}
