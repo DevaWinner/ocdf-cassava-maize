@@ -1,0 +1,49 @@
+{
+ "protocol_version": "v2",
+ "frozen_utc": "2026-11-04T12:42:37.818325+00:00",
+ "manifest": "manifest_v2.csv",
+ "manifest_sha256": "93463d32bcbefbbe15465ac505a08a429e5b889c9e7e421db9b6a278385f0d97",
+ "manifest_rows": 38108,
+ "seed": 2026,
+ "partitions": {
+  "train": 0.7,
+  "select": 0.1,
+  "calib_T": 0.05,
+  "thresh": 0.05,
+  "test": 0.1
+ },
+ "phash": "64-bit DCT pHash (imagehash method)",
+ "group_max_hamming": 8,
+ "quarantine_max_hamming": 6,
+ "change_from_v1": "v1 used d <= 5 for grouping and quarantine. Inspection of the v1 sheets showed the same photograph at d = 6 (D1, Healthy vs CBB) and repeated PlantVillage leaves at d = 6 to 8, while d = 8 also matched unrelated images (cassava vs maize). v2 groups same-label pairs at d <= 8 and quarantines only at d <= 6. Changed before any model training.",
+ "exact_duplicate_rule": "keep one copy; priority D1, D4, D6, D3, then path",
+ "quarantine_rules": [
+  "D3 image that is an exact or near copy of a development image",
+  "both images of a near-duplicate pair with different research labels",
+  "all copies of an exact duplicate with different research labels"
+ ],
+ "grouping": "union of near-duplicate pairs (d <= 5) among retained images; no plant/farm/session identifiers exist in any source",
+ "class_weights_from_training_counts": {
+  "cassava": {
+   "C01": 5.0,
+   "C02": 0.426,
+   "C03": 2.1772
+  },
+  "maize": {
+   "M01": 0.4866,
+   "M02": 3.0987,
+   "M03": 5.0,
+   "M04": 2.5556,
+   "M05": 0.4847
+  }
+ },
+ "limited_test_strata": {},
+ "environment": {
+  "notebook": "02_duplicates_grouping_partitions",
+  "run_utc": "2026-11-04T12:40:45.485069+00:00",
+  "python": "3.13.18",
+  "pandas": "2.2.3",
+  "numpy": "2.4.6",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39"
+ }
+}

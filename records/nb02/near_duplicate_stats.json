@@ -1,0 +1,145 @@
+{
+ "pairs_total": 834,
+ "pairs_by_type": {
+  "development vs D3": 3,
+  "within D1": 4,
+  "within D3": 782,
+  "within D4": 24,
+  "within D6": 21
+ },
+ "pairs_by_distance": {
+  "0": 21,
+  "2": 29,
+  "4": 59,
+  "6": 197,
+  "8": 528
+ },
+ "label_conflict_pairs": 28,
+ "label_conflict_pairs_by_distance": {
+  "6": 2,
+  "8": 26
+ },
+ "pairs_by_type_and_distance": {
+  "development vs D3 d=8": 3,
+  "within D1 d=6": 3,
+  "within D1 d=8": 1,
+  "within D3 d=0": 20,
+  "within D3 d=2": 28,
+  "within D3 d=4": 56,
+  "within D3 d=6": 187,
+  "within D3 d=8": 491,
+  "within D4 d=6": 3,
+  "within D4 d=8": 21,
+  "within D6 d=0": 1,
+  "within D6 d=2": 1,
+  "within D6 d=4": 3,
+  "within D6 d=6": 4,
+  "within D6 d=8": 12
+ },
+ "quarantined_images": 4,
+ "quarantine_reasons": {
+  "near duplicate": 4
+ },
+ "groups": 37664,
+ "groups_with_more_than_one_image": 243,
+ "group_size_distribution": {
+  "1": 37421,
+  "2": 219,
+  "3": 17,
+  "4": 4,
+  "5": 2,
+  "172": 1
+ },
+ "largest_groups": [
+  {
+   "group_id": "G000133",
+   "size": 172,
+   "source": "D3",
+   "label": "C03"
+  },
+  {
+   "group_id": "G003921",
+   "size": 5,
+   "source": "D3",
+   "label": "C03"
+  },
+  {
+   "group_id": "G014542",
+   "size": 5,
+   "source": "D3",
+   "label": "C03"
+  },
+  {
+   "group_id": "G002717",
+   "size": 4,
+   "source": "D3",
+   "label": "C02"
+  },
+  {
+   "group_id": "G003859",
+   "size": 4,
+   "source": "D3",
+   "label": "C01"
+  },
+  {
+   "group_id": "G000524",
+   "size": 4,
+   "source": "D3",
+   "label": "C01"
+  },
+  {
+   "group_id": "G019012",
+   "size": 4,
+   "source": "D3",
+   "label": "C03"
+  },
+  {
+   "group_id": "G000085",
+   "size": 3,
+   "source": "D3",
+   "label": "C01"
+  },
+  {
+   "group_id": "G002477",
+   "size": 3,
+   "source": "D3",
+   "label": "C03"
+  },
+  {
+   "group_id": "G001959",
+   "size": 3,
+   "source": "D4",
+   "label": "M05"
+  }
+ ],
+ "nearest_neighbour_diagnostic": {
+  "D1": {
+   "sampled_images": 3000,
+   "share_with_neighbour_at_d<=4": 0.0,
+   "share_d6_to_10": 0.0033,
+   "share_d12_to_16": 0.9483,
+   "median_nearest_distance": 16.0
+  },
+  "D3": {
+   "sampled_images": 3000,
+   "share_with_neighbour_at_d<=4": 0.032,
+   "share_d6_to_10": 0.124,
+   "share_d12_to_16": 0.637,
+   "median_nearest_distance": 16.0
+  },
+  "D4": {
+   "sampled_images": 3000,
+   "share_with_neighbour_at_d<=4": 0.0,
+   "share_d6_to_10": 0.0317,
+   "share_d12_to_16": 0.871,
+   "median_nearest_distance": 14.0
+  },
+  "D6": {
+   "sampled_images": 3000,
+   "share_with_neighbour_at_d<=4": 0.002,
+   "share_d6_to_10": 0.028,
+   "share_d12_to_16": 0.6347,
+   "median_nearest_distance": 16.0
+  }
+ }
+}
