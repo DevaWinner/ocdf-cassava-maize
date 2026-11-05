@@ -1,0 +1,631 @@
+{
+ "execution_summary": {
+  "estimated_inference_time": 25283,
+  "estimated_inference_peak_memory": 52678656,
+  "first_load_time": 76533,
+  "first_load_peak_memory": 65830912,
+  "warm_load_time": 11799,
+  "warm_load_peak_memory": 68714496,
+  "compile_time": 0,
+  "compile_peak_memory": 0,
+  "compile_memory_increase_range": [
+   0,
+   0
+  ],
+  "compile_memory_peak_range": [
+   0,
+   0
+  ],
+  "first_load_memory_increase_range": [
+   5242104,
+   6880912
+  ],
+  "first_load_memory_peak_range": [
+   1019904,
+   2658712
+  ],
+  "warm_load_memory_increase_range": [
+   4199416,
+   5995792
+  ],
+  "warm_load_memory_peak_range": [
+   1204224,
+   3000600
+  ],
+  "inference_memory_increase_range": [
+   0,
+   184784
+  ],
+  "inference_memory_peak_range": [
+   77824,
+   2096280
+  ],
+  "all_compile_times": [],
+  "all_first_load_times": [
+   76533
+  ],
+  "all_warm_load_times": [
+   11799
+  ],
+  "all_inference_times": [
+   31571,
+   26787,
+   26767,
+   26731,
+   26792,
+   27042,
+   26948,
+   26890,
+   26756,
+   25850,
+   26242,
+   48470,
+   28682,
+   25442,
+   26529,
+   26687,
+   26750,
+   26654,
+   26301,
+   26133,
+   25539,
+   25477,
+   25621,
+   25283,
+   25757,
+   25883,
+   25634,
+   26015,
+   25744,
+   25869,
+   25927,
+   25914,
+   26145,
+   25693,
+   26592,
+   26751,
+   26738,
+   26730,
+   25978,
+   25789,
+   26709,
+   26709,
+   26658,
+   26814,
+   26725,
+   26692,
+   26918,
+   26678,
+   26645,
+   25913,
+   25986,
+   25748,
+   26044,
+   26661,
+   26655,
+   26680,
+   26332,
+   25780,
+   26081,
+   25938,
+   25590,
+   25449,
+   25818,
+   25712,
+   25674,
+   25659,
+   26031,
+   25583,
+   25555,
+   25628,
+   25699,
+   25561,
+   26541,
+   26719,
+   26674,
+   26637,
+   25895,
+   25770,
+   25652,
+   26679,
+   26637,
+   26749,
+   26727,
+   26711,
+   26274,
+   26200,
+   25727,
+   25785,
+   25607,
+   26075,
+   25932,
+   26287,
+   26753,
+   26800,
+   26700,
+   25880,
+   25475,
+   25880,
+   25749,
+   25707
+  ]
+ },
+ "execution_detail": [
+  {
+   "name": "tfl.quantize",
+   "type": "QUANTIZE",
+   "compute_unit": "CPU",
+   "execution_time": 64,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mnv2_scale_1/mul",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mnv2_scale_1/add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 80,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/bn_Conv1_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 2629,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/expanded_conv_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 683,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/expanded_conv_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 578,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_1_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 2312,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_1_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 465,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_1_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 455,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_2_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 1072,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_2_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 669,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_2_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 637,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_2_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 55,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_3_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 1073,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_3_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 184,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_3_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 214,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_4_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 419,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_4_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 223,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_4_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 276,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_4_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 18,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_5_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 419,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_5_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 222,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_5_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 276,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_5_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 18,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_6_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 419,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_6_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 63,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_6_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 138,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_7_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 334,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_7_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 112,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_7_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 262,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_7_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 9,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_8_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 333,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_8_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 111,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_8_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 262,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_8_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 9,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_9_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 333,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_9_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 110,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_9_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 263,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_9_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 9,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_10_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 333,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_10_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 112,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_10_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 392,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_11_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 681,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_11_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 175,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_11_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 576,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_11_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 13,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_12_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 681,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_12_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 176,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_12_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 576,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_12_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 13,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_13_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 681,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_13_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 50,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_13_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 247,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_14_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 449,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_14_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 74,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_14_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 406,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_14_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 6,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_15_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 449,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_15_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 73,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_15_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 406,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_15_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 6,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_16_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 449,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_16_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 71,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_16_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 809,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/Conv_1_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 1120,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/gap_1/Mean",
+   "type": "MEAN",
+   "compute_unit": "CPU",
+   "execution_time": 11,
+   "execution_cycles": 0
+  },
+  {
+   "name": "StatefulPartitionedCall_1:01",
+   "type": "FULLY_CONNECTED",
+   "compute_unit": "CPU",
+   "execution_time": 2,
+   "execution_cycles": 0
+  },
+  {
+   "name": "StatefulPartitionedCall_1:0",
+   "type": "DEQUANTIZE",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  }
+ ]
+}

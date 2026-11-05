@@ -1,0 +1,2311 @@
+{
+ "execution_summary": {
+  "estimated_inference_time": 38229,
+  "estimated_inference_peak_memory": 61083648,
+  "first_load_time": 91486,
+  "first_load_peak_memory": 66109440,
+  "warm_load_time": 71500,
+  "warm_load_peak_memory": 77881344,
+  "compile_time": 0,
+  "compile_peak_memory": 0,
+  "compile_memory_increase_range": [
+   0,
+   0
+  ],
+  "compile_memory_peak_range": [
+   0,
+   0
+  ],
+  "first_load_memory_increase_range": [
+   7604720,
+   9061936
+  ],
+  "first_load_memory_peak_range": [
+   1241088,
+   2698304
+  ],
+  "warm_load_memory_increase_range": [
+   0,
+   10844656
+  ],
+  "warm_load_memory_peak_range": [
+   2170880,
+   14450160
+  ],
+  "inference_memory_increase_range": [
+   203616,
+   2375920
+  ],
+  "inference_memory_peak_range": [
+   5349376,
+   7521680
+  ],
+  "all_compile_times": [],
+  "all_first_load_times": [
+   91486
+  ],
+  "all_warm_load_times": [
+   71500
+  ],
+  "all_inference_times": [
+   47398,
+   40626,
+   40454,
+   40693,
+   39128,
+   39410,
+   39043,
+   40548,
+   40688,
+   40362,
+   39626,
+   74825,
+   40192,
+   38894,
+   38435,
+   38314,
+   38476,
+   39490,
+   38722,
+   38451,
+   38419,
+   38440,
+   39852,
+   40604,
+   40374,
+   38477,
+   38475,
+   39096,
+   39027,
+   38506,
+   39652,
+   40451,
+   40326,
+   39621,
+   39852,
+   40561,
+   40542,
+   39512,
+   39088,
+   38572,
+   38354,
+   38549,
+   38823,
+   39035,
+   38664,
+   38443,
+   38550,
+   38546,
+   40481,
+   40444,
+   39818,
+   38474,
+   38370,
+   39357,
+   40403,
+   40374,
+   40490,
+   40695,
+   40523,
+   39090,
+   40170,
+   40636,
+   40440,
+   38994,
+   38483,
+   38349,
+   38334,
+   38479,
+   38679,
+   38751,
+   38355,
+   38307,
+   38423,
+   40371,
+   40448,
+   39945,
+   38478,
+   38536,
+   38315,
+   38495,
+   38491,
+   39828,
+   40387,
+   40490,
+   39291,
+   38515,
+   40336,
+   40460,
+   39973,
+   38821,
+   38229,
+   38434,
+   38450,
+   38679,
+   38402,
+   38999,
+   38297,
+   38364,
+   38579,
+   40411
+  ]
+ },
+ "execution_detail": [
+  {
+   "name": "tfl.quantize",
+   "type": "QUANTIZE",
+   "compute_unit": "CPU",
+   "execution_time": 62,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/rescaling_1/mul",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 101,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/normalization_1/Sub",
+   "type": "SUB",
+   "compute_unit": "CPU",
+   "execution_time": 634,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/normalization_1/Maximum1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 594,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/rescaling_1_2/mul",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 594,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/stem_conv_pad_1/Pad",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 2631,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/stem_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/stem_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 212,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block1a_bn_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 684,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block1a_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block1a_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 211,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block1a_se_squeeze_1/Mean",
+   "type": "MEAN",
+   "compute_unit": "CPU",
+   "execution_time": 26,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block1a_se_reshape_1/Shape",
+   "type": "SHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block1a_se_reshape_1/strided_slice",
+   "type": "STRIDED_SLICE",
+   "compute_unit": "CPU",
+   "execution_time": 2,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block1a_se_reshape_1/Reshape/shape",
+   "type": "PACK",
+   "compute_unit": "CPU",
+   "execution_time": 4,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block1a_se_reshape_1/Reshape",
+   "type": "RESHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 4,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block1a_se_reduce_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block1a_se_reduce_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block1a_se_reduce_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block1a_se_expand_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block1a_se_expand_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block1a_se_excite_1/Mul",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 339,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block1a_project_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 577,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2a_expand_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 2312,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2a_expand_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2a_expand_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 634,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2a_bn_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 465,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2a_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2a_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 159,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2a_se_squeeze_1/Mean",
+   "type": "MEAN",
+   "compute_unit": "CPU",
+   "execution_time": 38,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2a_se_reshape_1/Shape",
+   "type": "SHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 2,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2a_se_reshape_1/strided_slice",
+   "type": "STRIDED_SLICE",
+   "compute_unit": "CPU",
+   "execution_time": 2,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2a_se_reshape_1/Reshape/shape",
+   "type": "PACK",
+   "compute_unit": "CPU",
+   "execution_time": 4,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2a_se_reshape_1/Reshape",
+   "type": "RESHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 4,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2a_se_reduce_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2a_se_reduce_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2a_se_reduce_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2a_se_expand_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2a_se_expand_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2a_se_excite_1/Mul",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 240,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2a_project_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 455,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2b_expand_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 1074,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2b_expand_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2b_expand_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 238,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2b_bn_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 669,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2b_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2b_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 238,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2b_se_squeeze_1/Mean",
+   "type": "MEAN",
+   "compute_unit": "CPU",
+   "execution_time": 113,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2b_se_reshape_1/Shape",
+   "type": "SHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2b_se_reshape_1/strided_slice",
+   "type": "STRIDED_SLICE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2b_se_reshape_1/Reshape/shape",
+   "type": "PACK",
+   "compute_unit": "CPU",
+   "execution_time": 3,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2b_se_reshape_1/Reshape",
+   "type": "RESHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 3,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2b_se_reduce_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2b_se_reduce_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2b_se_reduce_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2b_se_expand_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2b_se_expand_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2b_se_excite_1/Mul",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 348,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2b_project_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 637,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block2b_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 54,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3a_expand_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 1073,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3a_expand_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3a_expand_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 238,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3a_bn_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 385,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3a_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3a_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 60,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3a_se_squeeze_1/Mean",
+   "type": "MEAN",
+   "compute_unit": "CPU",
+   "execution_time": 17,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3a_se_reshape_1/Shape",
+   "type": "SHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3a_se_reshape_1/strided_slice",
+   "type": "STRIDED_SLICE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3a_se_reshape_1/Reshape/shape",
+   "type": "PACK",
+   "compute_unit": "CPU",
+   "execution_time": 3,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3a_se_reshape_1/Reshape",
+   "type": "RESHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 2,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3a_se_reduce_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3a_se_reduce_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3a_se_reduce_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3a_se_expand_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3a_se_expand_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3a_se_excite_1/Mul",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 87,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3a_project_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 266,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3b_expand_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 609,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3b_expand_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3b_expand_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 99,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3b_bn_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 539,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3b_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3b_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 99,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3b_se_squeeze_1/Mean",
+   "type": "MEAN",
+   "compute_unit": "CPU",
+   "execution_time": 31,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3b_se_reshape_1/Shape",
+   "type": "SHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3b_se_reshape_1/strided_slice",
+   "type": "STRIDED_SLICE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3b_se_reshape_1/Reshape/shape",
+   "type": "PACK",
+   "compute_unit": "CPU",
+   "execution_time": 2,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3b_se_reshape_1/Reshape",
+   "type": "RESHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3b_se_reduce_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 2,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3b_se_reduce_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3b_se_reduce_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3b_se_expand_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3b_se_expand_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3b_se_excite_1/Mul",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 143,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3b_project_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 421,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block3b_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 23,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4a_expand_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 608,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4a_expand_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4a_expand_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 99,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4a_bn_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 76,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4a_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4a_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 24,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4a_se_squeeze_1/Mean",
+   "type": "MEAN",
+   "compute_unit": "CPU",
+   "execution_time": 5,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4a_se_reshape_1/Shape",
+   "type": "SHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4a_se_reshape_1/strided_slice",
+   "type": "STRIDED_SLICE",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4a_se_reshape_1/Reshape/shape",
+   "type": "PACK",
+   "compute_unit": "CPU",
+   "execution_time": 2,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4a_se_reshape_1/Reshape",
+   "type": "RESHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4a_se_reduce_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4a_se_reduce_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4a_se_reduce_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4a_se_expand_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4a_se_expand_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4a_se_excite_1/Mul",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 36,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4a_project_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 211,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4b_expand_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 489,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4b_expand_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4b_expand_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 50,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4b_bn_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 139,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4b_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4b_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 50,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4b_se_squeeze_1/Mean",
+   "type": "MEAN",
+   "compute_unit": "CPU",
+   "execution_time": 8,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4b_se_reshape_1/Shape",
+   "type": "SHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4b_se_reshape_1/strided_slice",
+   "type": "STRIDED_SLICE",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4b_se_reshape_1/Reshape/shape",
+   "type": "PACK",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4b_se_reshape_1/Reshape",
+   "type": "RESHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4b_se_reduce_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 2,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4b_se_reduce_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4b_se_reduce_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4b_se_expand_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 2,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4b_se_expand_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4b_se_excite_1/Mul",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 73,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4b_project_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 403,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4b_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 11,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4c_expand_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 489,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4c_expand_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4c_expand_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 50,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4c_bn_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 139,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4c_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4c_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 50,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4c_se_squeeze_1/Mean",
+   "type": "MEAN",
+   "compute_unit": "CPU",
+   "execution_time": 8,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4c_se_reshape_1/Shape",
+   "type": "SHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4c_se_reshape_1/strided_slice",
+   "type": "STRIDED_SLICE",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4c_se_reshape_1/Reshape/shape",
+   "type": "PACK",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4c_se_reshape_1/Reshape",
+   "type": "RESHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4c_se_reduce_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4c_se_reduce_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4c_se_reduce_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4c_se_expand_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 2,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4c_se_expand_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4c_se_excite_1/Mul",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 73,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4c_project_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 403,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block4c_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 11,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5a_expand_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 490,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5a_expand_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5a_expand_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 50,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5a_bn_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 271,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5a_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5a_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 50,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5a_se_squeeze_1/Mean",
+   "type": "MEAN",
+   "compute_unit": "CPU",
+   "execution_time": 8,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5a_se_reshape_1/Shape",
+   "type": "SHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5a_se_reshape_1/strided_slice",
+   "type": "STRIDED_SLICE",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5a_se_reshape_1/Reshape/shape",
+   "type": "PACK",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5a_se_reshape_1/Reshape",
+   "type": "RESHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5a_se_reduce_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5a_se_reduce_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5a_se_reduce_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5a_se_expand_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 2,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5a_se_expand_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5a_se_excite_1/Mul",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 73,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5a_project_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 565,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5b_expand_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 901,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5b_expand_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5b_expand_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 70,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5b_bn_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 397,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5b_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5b_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 69,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5b_se_squeeze_1/Mean",
+   "type": "MEAN",
+   "compute_unit": "CPU",
+   "execution_time": 12,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5b_se_reshape_1/Shape",
+   "type": "SHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5b_se_reshape_1/strided_slice",
+   "type": "STRIDED_SLICE",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5b_se_reshape_1/Reshape/shape",
+   "type": "PACK",
+   "compute_unit": "CPU",
+   "execution_time": 2,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5b_se_reshape_1/Reshape",
+   "type": "RESHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5b_se_reduce_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 3,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5b_se_reduce_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5b_se_reduce_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5b_se_expand_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 4,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5b_se_expand_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5b_se_excite_1/Mul",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 105,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5b_project_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 783,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5b_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 15,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5c_expand_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 901,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5c_expand_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5c_expand_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 70,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5c_bn_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 396,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5c_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5c_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 70,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5c_se_squeeze_1/Mean",
+   "type": "MEAN",
+   "compute_unit": "CPU",
+   "execution_time": 15,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5c_se_reshape_1/Shape",
+   "type": "SHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5c_se_reshape_1/strided_slice",
+   "type": "STRIDED_SLICE",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5c_se_reshape_1/Reshape/shape",
+   "type": "PACK",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5c_se_reshape_1/Reshape",
+   "type": "RESHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5c_se_reduce_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 3,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5c_se_reduce_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5c_se_reduce_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5c_se_expand_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 4,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5c_se_expand_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5c_se_excite_1/Mul",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 105,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5c_project_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 783,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block5c_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 15,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6a_expand_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 901,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6a_expand_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6a_expand_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 69,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6a_bn_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 110,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6a_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6a_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 18,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6a_se_squeeze_1/Mean",
+   "type": "MEAN",
+   "compute_unit": "CPU",
+   "execution_time": 4,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6a_se_reshape_1/Shape",
+   "type": "SHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6a_se_reshape_1/strided_slice",
+   "type": "STRIDED_SLICE",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6a_se_reshape_1/Reshape/shape",
+   "type": "PACK",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6a_se_reshape_1/Reshape",
+   "type": "RESHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6a_se_reduce_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 3,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6a_se_reduce_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6a_se_reduce_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6a_se_expand_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 4,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6a_se_expand_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6a_se_excite_1/Mul",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 26,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6a_project_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 344,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6b_expand_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 631,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6b_expand_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6b_expand_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 30,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6b_bn_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 191,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6b_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6b_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 30,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6b_se_squeeze_1/Mean",
+   "type": "MEAN",
+   "compute_unit": "CPU",
+   "execution_time": 8,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6b_se_reshape_1/Shape",
+   "type": "SHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6b_se_reshape_1/strided_slice",
+   "type": "STRIDED_SLICE",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6b_se_reshape_1/Reshape/shape",
+   "type": "PACK",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6b_se_reshape_1/Reshape",
+   "type": "RESHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6b_se_reduce_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 6,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6b_se_reduce_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6b_se_reduce_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6b_se_expand_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 8,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6b_se_expand_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6b_se_excite_1/Mul",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 45,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6b_project_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 582,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6b_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 7,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6c_expand_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 632,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6c_expand_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6c_expand_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 30,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6c_bn_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 192,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6c_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6c_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 30,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6c_se_squeeze_1/Mean",
+   "type": "MEAN",
+   "compute_unit": "CPU",
+   "execution_time": 8,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6c_se_reshape_1/Shape",
+   "type": "SHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6c_se_reshape_1/strided_slice",
+   "type": "STRIDED_SLICE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6c_se_reshape_1/Reshape/shape",
+   "type": "PACK",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6c_se_reshape_1/Reshape",
+   "type": "RESHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6c_se_reduce_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 7,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6c_se_reduce_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6c_se_reduce_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6c_se_expand_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 8,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6c_se_expand_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6c_se_excite_1/Mul",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 45,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6c_project_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 582,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6c_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 6,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6d_expand_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 631,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6d_expand_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6d_expand_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 30,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6d_bn_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 187,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6d_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6d_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 30,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6d_se_squeeze_1/Mean",
+   "type": "MEAN",
+   "compute_unit": "CPU",
+   "execution_time": 8,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6d_se_reshape_1/Shape",
+   "type": "SHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6d_se_reshape_1/strided_slice",
+   "type": "STRIDED_SLICE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6d_se_reshape_1/Reshape/shape",
+   "type": "PACK",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6d_se_reshape_1/Reshape",
+   "type": "RESHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6d_se_reduce_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 7,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6d_se_reduce_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6d_se_reduce_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6d_se_expand_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 7,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6d_se_expand_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6d_se_excite_1/Mul",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 45,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6d_project_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 582,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block6d_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 7,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block7a_expand_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 632,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block7a_expand_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block7a_expand_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 30,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block7a_bn_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 88,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block7a_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block7a_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 30,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block7a_se_squeeze_1/Mean",
+   "type": "MEAN",
+   "compute_unit": "CPU",
+   "execution_time": 8,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block7a_se_reshape_1/Shape",
+   "type": "SHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block7a_se_reshape_1/strided_slice",
+   "type": "STRIDED_SLICE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block7a_se_reshape_1/Reshape/shape",
+   "type": "PACK",
+   "compute_unit": "CPU",
+   "execution_time": 2,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block7a_se_reshape_1/Reshape",
+   "type": "RESHAPE",
+   "compute_unit": "CPU",
+   "execution_time": 1,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block7a_se_reduce_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 7,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block7a_se_reduce_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block7a_se_reduce_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block7a_se_expand_1/Squeeze1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 8,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block7a_se_expand_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block7a_se_excite_1/Mul",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 45,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/block7a_project_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 971,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/top_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 1121,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/top_activation_1/Sigmoid",
+   "type": "LOGISTIC",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/efficientnetb0_1/top_activation_1/mul_1",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 33,
+   "execution_cycles": 0
+  },
+  {
+   "name": "EfficientNetB0_3cls_logits_1/gap_1/Mean",
+   "type": "MEAN",
+   "compute_unit": "CPU",
+   "execution_time": 8,
+   "execution_cycles": 0
+  },
+  {
+   "name": "StatefulPartitionedCall_1:01",
+   "type": "FULLY_CONNECTED",
+   "compute_unit": "CPU",
+   "execution_time": 2,
+   "execution_cycles": 0
+  },
+  {
+   "name": "StatefulPartitionedCall_1:0",
+   "type": "DEQUANTIZE",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  }
+ ]
+}

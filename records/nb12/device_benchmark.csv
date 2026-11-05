@@ -1,0 +1,41 @@
+device,crop,role,file,MiB,threads_requested,threads_used,status,runs,median_ms,p90_ms,min_ms,max_ms,first_load_ms,warm_load_ms,peak_memory_MB_low,peak_memory_MB_high,estimated_peak_memory_MB
+Samsung Galaxy S24 (Family),cassava,phase1_fp16,models/cassava/cassava_EfficientNetB0_s42_fp16.tflite,7.774,1,1,ok,100,19.8075,20.4838,19.697,36.487,30.548,23.856,50.375,61.29234313964844,181.515625
+Samsung Galaxy S24 (Family),cassava,phase1_fp16,models/cassava/cassava_EfficientNetB0_s42_fp16.tflite,7.774,4,4,ok,100,7.6365,7.8641000000000005,7.508,20.094,76.626,22.33,49.6015625,60.58595275878906,180.609375
+Samsung Galaxy S24 (Family),cassava,phase1_int8,models/cassava/cassava_EfficientNetB0_s42_int8.tflite,4.717,1,1,ok,100,6.7005,6.911899999999999,6.65,15.777,69.031,20.952,4.96875,16.397933959960938,115.01953125
+Samsung Galaxy S24 (Family),cassava,phase1_int8,models/cassava/cassava_EfficientNetB0_s42_int8.tflite,4.717,4,4,ok,100,2.626,2.7196000000000002,2.552,9.564,67.19,12.953,0.01171875,11.9869384765625,110.0078125
+Samsung Galaxy S24 (Family),cassava,v3_fp16,models_v3/cassava/cassava_shift_EfficientNetB0_fp16.tflite,7.779,1,1,ok,100,20.05,20.5544,19.733,31.281,32.68,25.361,54.40234375,64.04212951660156,180.90234375
+Samsung Galaxy S24 (Family),cassava,v3_fp16,models_v3/cassava/cassava_shift_EfficientNetB0_fp16.tflite,7.779,4,4,ok,100,7.9735,8.244399999999999,7.553,20.703,64.87,10.193,51.125,61.33634948730469,179.10546875
+Samsung Galaxy S24 (Family),cassava,v3_int8_k0,models_v3/cassava/cassava_shift_EfficientNetB0_int8_k0.tflite,4.721,1,1,ok,100,6.8045,6.917200000000001,6.694,14.551,28.664,23.754,12.87890625,24.477890014648438,117.79296875
+Samsung Galaxy S24 (Family),cassava,v3_int8_k0,models_v3/cassava/cassava_shift_EfficientNetB0_int8_k0.tflite,4.721,4,4,ok,100,2.661,3.1286,2.554,10.142,31.289,24.457,0.0,9.579803466796875,112.26953125
+Samsung Galaxy S24 (Family),cassava,mnv2_int8,models_v3/cassava/cassava_shift_MobileNetV2_int8.tflite,2.616,1,1,ok,100,3.785,3.985500000000002,3.746,6.475,17.714,14.313,0.01171875,9.22003173828125,107.875
+Samsung Galaxy S24 (Family),cassava,mnv2_int8,models_v3/cassava/cassava_shift_MobileNetV2_int8.tflite,2.616,4,4,ok,100,1.4445,1.9366000000000012,1.399,3.515,20.297,19.371,7.8359375,17.033477783203125,105.8359375
+Samsung Galaxy S24 (Family),maize,phase1_fp16,models/maize/maize_EfficientNetB0_s42_fp16.tflite,7.779,1,1,ok,100,19.7935,20.3741,19.691,27.375,28.618,25.366,52.44921875,63.31712341308594,184.515625
+Samsung Galaxy S24 (Family),maize,phase1_fp16,models/maize/maize_EfficientNetB0_s42_fp16.tflite,7.779,4,4,ok,100,8.459,9.3164,7.583,44.955,38.696,27.615,51.67578125,63.53068542480469,182.91015625
+Samsung Galaxy S24 (Family),maize,phase1_int8,models/maize/maize_EfficientNetB0_s42_int8.tflite,4.72,1,1,ok,100,6.706,6.8664000000000005,6.66,14.888,69.159,13.633,4.97265625,16.65411376953125,115.17578125
+Samsung Galaxy S24 (Family),maize,phase1_int8,models/maize/maize_EfficientNetB0_s42_int8.tflite,4.72,4,4,ok,100,2.6395,2.7753,2.55,12.093,67.761,17.709,0.01171875,11.486312866210938,112.24609375
+Samsung Galaxy S24 (Family),maize,v3_fp16,models_v3/maize/maize_shift_EfficientNetB0_fp16.tflite,7.784,1,1,ok,100,19.8655,20.5233,19.757,31.347,81.874,14.617,50.14453125,60.86006164550781,182.91015625
+Samsung Galaxy S24 (Family),maize,v3_fp16,models_v3/maize/maize_shift_EfficientNetB0_fp16.tflite,7.784,4,4,ok,100,7.893,8.126199999999999,7.477,24.082,75.606,10.562,49.640625,60.812164306640625,180.55078125
+Samsung Galaxy S24 (Family),maize,v3_int8_k0,models_v3/maize/maize_shift_EfficientNetB0_int8_k0.tflite,4.724,1,1,ok,100,6.8865,7.0894,6.671,15.888,33.065,28.56,7.08984375,16.73101806640625,116.203125
+Samsung Galaxy S24 (Family),maize,v3_int8_k0,models_v3/maize/maize_shift_EfficientNetB0_int8_k0.tflite,4.724,4,4,ok,100,2.6545,3.2233000000000023,2.553,14.01,25.138,16.232,5.05859375,16.717315673828125,115.43359375
+Samsung Galaxy S24 (Family),maize,mnv2_int8,models_v3/maize/maize_shift_MobileNetV2_int8.tflite,2.619,1,1,ok,100,4.4585,5.454400000000002,3.898,11.491,41.932,12.386,0.01171875,8.835952758789062,103.69140625
+Samsung Galaxy S24 (Family),maize,mnv2_int8,models_v3/maize/maize_shift_MobileNetV2_int8.tflite,2.619,4,4,ok,100,1.4525,1.7187000000000006,1.423,6.306,51.063,10.627,0.015625,8.827194213867188,103.80859375
+Google Pixel 3,cassava,phase1_fp16,models/cassava/cassava_EfficientNetB0_s42_fp16.tflite,7.774,1,1,ok,100,85.826,92.8577,79.067,116.218,132.952,99.1,49.5078125,55.4522705078125,119.20703125
+Google Pixel 3,cassava,phase1_fp16,models/cassava/cassava_EfficientNetB0_s42_fp16.tflite,7.774,4,4,ok,100,22.7455,24.345500000000005,22.551,82.389,113.175,74.547,45.609375,51.10276794433594,113.5546875
+Google Pixel 3,cassava,phase1_int8,models/cassava/cassava_EfficientNetB0_s42_int8.tflite,4.717,1,1,ok,100,39.0655,40.5426,38.229,74.825,91.486,71.5,5.1015625,7.1732330322265625,58.25390625
+Google Pixel 3,cassava,phase1_int8,models/cassava/cassava_EfficientNetB0_s42_int8.tflite,4.717,4,4,ok,100,11.1925,12.0728,11.121,23.179,103.014,62.338,3.37890625,5.580726623535156,56.13671875
+Google Pixel 3,cassava,v3_fp16,models_v3/cassava/cassava_shift_EfficientNetB0_fp16.tflite,7.779,1,1,ok,100,79.275,81.75,77.717,113.855,123.101,79.545,49.46484375,55.46986389160156,118.671875
+Google Pixel 3,cassava,v3_fp16,models_v3/cassava/cassava_shift_EfficientNetB0_fp16.tflite,7.779,4,4,ok,100,38.6855,51.343500000000006,23.275,65.238,268.815,42.763,49.80078125,52.395973205566406,114.3359375
+Google Pixel 3,cassava,v3_int8_k0,models_v3/cassava/cassava_shift_EfficientNetB0_int8_k0.tflite,4.721,1,1,ok,100,40.09,40.6768,38.393,69.49,85.593,22.687,5.04296875,7.1549835205078125,57.7421875
+Google Pixel 3,cassava,v3_int8_k0,models_v3/cassava/cassava_shift_EfficientNetB0_int8_k0.tflite,4.721,4,4,ok,100,12.5335,13.4879,11.241,23.178,78.606,31.875,3.3828125,5.50634765625,56.22265625
+Google Pixel 3,cassava,mnv2_int8,models_v3/cassava/cassava_shift_MobileNetV2_int8.tflite,2.616,1,1,ok,100,25.865,26.7656,25.259,57.859,88.429,39.859,0.2578125,2.0124969482421875,74.85546875
+Google Pixel 3,cassava,mnv2_int8,models_v3/cassava/cassava_shift_MobileNetV2_int8.tflite,2.616,4,4,ok,100,7.1135,9.104700000000001,7.048,13.96,72.831,47.425,0.0078125,2.4105224609375,73.45703125
+Google Pixel 3,maize,phase1_fp16,models/maize/maize_EfficientNetB0_s42_fp16.tflite,7.779,1,1,ok,100,85.8045,90.7148,78.399,159.07,123.182,46.615,28.3125,69.22531127929688,111.90625
+Google Pixel 3,maize,phase1_fp16,models/maize/maize_EfficientNetB0_s42_fp16.tflite,7.779,4,4,ok,100,27.2135,28.4195,22.975,68.35,103.167,33.152,46.734375,51.17408752441406,113.97265625
+Google Pixel 3,maize,phase1_int8,models/maize/maize_EfficientNetB0_s42_int8.tflite,4.72,1,1,ok,100,39.2925,40.532,38.264,73.904,85.549,54.53,4.953125,8.432098388671875,59.54296875
+Google Pixel 3,maize,phase1_int8,models/maize/maize_EfficientNetB0_s42_int8.tflite,4.72,4,4,ok,100,11.191,11.341700000000001,11.114,20.313,87.603,73.488,5.1484375,6.992088317871094,81.234375
+Google Pixel 3,maize,v3_fp16,models_v3/maize/maize_shift_EfficientNetB0_fp16.tflite,7.784,1,1,ok,100,82.6525,86.34830000000001,78.343,149.655,149.053,92.182,46.8046875,49.98081970214844,113.9296875
+Google Pixel 3,maize,v3_fp16,models_v3/maize/maize_shift_EfficientNetB0_fp16.tflite,7.784,4,4,ok,100,35.989,47.8222,27.059,108.471,127.647,116.567,49.640625,55.287200927734375,117.7578125
+Google Pixel 3,maize,v3_int8_k0,models_v3/maize/maize_shift_EfficientNetB0_int8_k0.tflite,4.724,1,1,ok,100,40.6885,41.1159,39.974,48.416,114.402,90.515,3.484375,5.601654052734375,56.421875
+Google Pixel 3,maize,v3_int8_k0,models_v3/maize/maize_shift_EfficientNetB0_int8_k0.tflite,4.724,4,4,ok,100,11.2575,12.390000000000004,11.162,106.177,104.27,31.525,4.02734375,6.146568298339844,56.4375
+Google Pixel 3,maize,mnv2_int8,models_v3/maize/maize_shift_MobileNetV2_int8.tflite,2.619,1,1,ok,100,26.139,26.7875,25.283,48.47,76.533,11.799,0.07421875,1.9991683959960938,50.23828125
+Google Pixel 3,maize,mnv2_int8,models_v3/maize/maize_shift_MobileNetV2_int8.tflite,2.619,4,4,ok,100,7.4375,10.183500000000015,7.062,20.184,82.899,43.145,0.01171875,1.96966552734375,49.75

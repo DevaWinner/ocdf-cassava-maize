@@ -1,0 +1,23 @@
+[
+ {
+  "date_utc": "2026-11-04T23:44:22.289451+00:00",
+  "notebook": "07",
+  "what": "protocol_v3_registration.json (registered 2026-11-04T22:53 UTC) contains the structured registration fields (hypotheses, primary endpoint, D5 archives, split rule) but its registration_text_markdown field holds the string ' + repr(REG_MD) + r' because of a bug in the notebook generator.",
+  "remedy": "The full registration text is written to protocol_v3_registration_text.md with its SHA-256 at the start of Notebook 07, before any Phase 2 training or evaluation. No experiment ran between the two timestamps except data preparation (Notebook 06).",
+  "affects_results": false
+ },
+ {
+  "date_utc": "2026-11-05T01:46:53.976943+00:00",
+  "notebook": "08",
+  "what": "The registration described CCMT backgrounds as plain studio backgrounds. Inspection showed a mix of leaves on paper or card and field photographs, and leaves that fill the frame. The first segmentation method (border colour, records/nb08) rejected 1,409 of 1,702 images; it was replaced by a saturation-based prior with GrabCut (records/nb08_v2) before any H2 endpoint was read.",
+  "remedy": "H2 is run on the CCMT images whose background is paper or card: 1000 of 1702 selected images ({\"leaf_fraction_out_of_range\": 486, \"background_not_plain\": 214, \"no_foreground_seed\": 2} excluded). Excluded images are counted per class in e12_segmentation_summary.json. Design, conditions and endpoints are as registered; the H2 result applies to paper-background images and is reported as such.",
+  "affects_results": true
+ },
+ {
+  "date_utc": "2026-11-05T19:27:09.714899+00:00",
+  "notebook": "12",
+  "what": "The registration planned the LiteRT benchmark_model binary over USB on a personally owned Android phone. The on-device measurement was made instead on real Android phones hosted by Qualcomm AI Hub (Samsung Galaxy S24 (Family), Google Pixel 3), CPU only, LiteRT runtime, 1 and 4 threads where the service accepted the option.",
+  "remedy": "Device names and attributes are recorded in records/nb12/devices.json and every raw profile is kept. Latency and memory are reported as hosted-phone measurements; the offline laptop benchmark is unchanged. No accuracy figure depends on this change.",
+  "affects_results": false
+ }
+]

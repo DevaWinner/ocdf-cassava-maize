@@ -1,0 +1,631 @@
+{
+ "execution_summary": {
+  "estimated_inference_time": 7062,
+  "estimated_inference_peak_memory": 52166656,
+  "first_load_time": 82899,
+  "first_load_peak_memory": 68534272,
+  "warm_load_time": 43145,
+  "warm_load_peak_memory": 74072064,
+  "compile_time": 0,
+  "compile_peak_memory": 0,
+  "compile_memory_increase_range": [
+   0,
+   0
+  ],
+  "compile_memory_peak_range": [
+   0,
+   0
+  ],
+  "first_load_memory_increase_range": [
+   24112,
+   6985424
+  ],
+  "first_load_memory_peak_range": [
+   2416640,
+   9377952
+  ],
+  "warm_load_memory_increase_range": [
+   0,
+   8522640
+  ],
+  "warm_load_memory_peak_range": [
+   49152,
+   13796432
+  ],
+  "inference_memory_increase_range": [
+   0,
+   667600
+  ],
+  "inference_memory_peak_range": [
+   12288,
+   2065344
+  ],
+  "all_compile_times": [],
+  "all_first_load_times": [
+   82899
+  ],
+  "all_warm_load_times": [
+   43145
+  ],
+  "all_inference_times": [
+   20184,
+   17274,
+   7802,
+   11963,
+   11637,
+   12259,
+   12615,
+   11756,
+   10022,
+   12335,
+   17723,
+   12001,
+   7743,
+   9220,
+   8565,
+   7217,
+   7097,
+   7119,
+   7097,
+   7114,
+   7155,
+   7068,
+   7064,
+   7090,
+   7432,
+   7086,
+   7065,
+   7066,
+   7104,
+   7143,
+   7132,
+   7070,
+   7062,
+   7070,
+   7062,
+   7190,
+   7195,
+   7234,
+   8701,
+   7117,
+   8792,
+   7239,
+   7276,
+   7448,
+   7372,
+   7318,
+   7431,
+   7340,
+   8123,
+   8086,
+   7505,
+   7340,
+   7489,
+   7318,
+   7319,
+   7482,
+   7428,
+   7318,
+   7307,
+   7314,
+   7358,
+   7385,
+   7331,
+   7430,
+   7416,
+   7471,
+   7420,
+   7441,
+   7435,
+   7400,
+   7422,
+   7418,
+   7418,
+   7499,
+   7417,
+   7513,
+   7440,
+   7479,
+   7475,
+   7471,
+   7452,
+   7436,
+   7590,
+   7439,
+   7567,
+   7474,
+   7546,
+   7491,
+   7515,
+   7488,
+   7537,
+   7531,
+   7491,
+   7526,
+   7540,
+   7540,
+   7927,
+   7495,
+   7653,
+   7589
+  ]
+ },
+ "execution_detail": [
+  {
+   "name": "tfl.quantize",
+   "type": "QUANTIZE",
+   "compute_unit": "CPU",
+   "execution_time": 39,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mnv2_scale_1/mul",
+   "type": "MUL",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mnv2_scale_1/add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 22,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/bn_Conv1_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 700,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/expanded_conv_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 184,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/expanded_conv_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 154,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_1_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 615,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_1_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 126,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_1_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 122,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_2_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 286,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_2_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 180,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_2_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 171,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_2_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 21,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_3_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 286,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_3_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 50,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_3_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 58,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_4_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 113,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_4_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 62,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_4_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 75,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_4_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 13,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_5_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 112,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_5_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 61,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_5_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 75,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_5_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 13,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_6_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 113,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_6_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 20,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_6_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 39,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_7_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 92,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_7_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 36,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_7_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 73,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_7_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 10,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_8_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 92,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_8_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 36,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_8_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 73,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_8_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 9,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_9_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 92,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_9_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 36,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_9_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 73,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_9_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 9,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_10_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 92,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_10_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 36,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_10_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 108,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_11_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 186,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_11_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 55,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_11_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 159,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_11_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 13,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_12_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 187,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_12_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 55,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_12_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 158,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_12_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 13,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_13_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 187,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_13_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 18,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_13_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 72,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_14_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 125,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_14_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 25,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_14_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 114,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_14_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 6,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_15_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 125,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_15_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 25,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_15_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 115,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_15_add_1/Add",
+   "type": "ADD",
+   "compute_unit": "CPU",
+   "execution_time": 6,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_16_expand_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 126,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_16_depthwise_BN_1/batchnorm/sub1",
+   "type": "DEPTHWISE_CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 25,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/block_16_project_BN_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 223,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/mobilenetv2_1.00_224_1/Conv_1_bn_1/batchnorm/sub1",
+   "type": "CONV_2D",
+   "compute_unit": "CPU",
+   "execution_time": 306,
+   "execution_cycles": 0
+  },
+  {
+   "name": "MobileNetV2_5cls_224_logits_1/gap_1/Mean",
+   "type": "MEAN",
+   "compute_unit": "CPU",
+   "execution_time": 4,
+   "execution_cycles": 0
+  },
+  {
+   "name": "StatefulPartitionedCall_1:01",
+   "type": "FULLY_CONNECTED",
+   "compute_unit": "CPU",
+   "execution_time": 3,
+   "execution_cycles": 0
+  },
+  {
+   "name": "StatefulPartitionedCall_1:0",
+   "type": "DEQUANTIZE",
+   "compute_unit": "CPU",
+   "execution_time": 0,
+   "execution_cycles": 0
+  }
+ ]
+}

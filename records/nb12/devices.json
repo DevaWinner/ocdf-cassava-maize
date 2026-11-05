@@ -1,0 +1,35 @@
+{
+ "Google Pixel 3": {
+  "os": "10",
+  "attributes": [
+   "os:android",
+   "framework:tflite",
+   "framework:onnx",
+   "abi:aarch64-android",
+   "vendor:google",
+   "format:phone",
+   "chipset:qualcomm-snapdragon-845",
+   "chipset:sdm845",
+   "hexagon:v65",
+   "soc-model:1"
+  ]
+ },
+ "Samsung Galaxy S24 (Family)": {
+  "os": "14",
+  "attributes": [
+   "os:android",
+   "framework:tflite",
+   "framework:onnx",
+   "abi:aarch64-android",
+   "vendor:samsung",
+   "format:phone",
+   "chipset:qualcomm-snapdragon-8gen3",
+   "chipset:sm8650",
+   "hexagon:v75",
+   "soc-model:57",
+   "htp-supports-fp16:true",
+   "htp-supports-weight-sharing:true",
+   "framework:qnn"
+  ]
+ }
+}
