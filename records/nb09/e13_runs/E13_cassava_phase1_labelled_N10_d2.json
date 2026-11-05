@@ -1,0 +1,34 @@
+{
+ "run_id": "E13_cassava_phase1_labelled_N10_d2",
+ "crop": "cassava",
+ "start": "phase1",
+ "method": "labelled",
+ "N": 10,
+ "draw": 2,
+ "n_adapt_groups": 9,
+ "adapt_label_counts": {
+  "C01": 8,
+  "C02": 1,
+  "C03": 1
+ },
+ "label_free": false,
+ "detail": {
+  "epochs": 20,
+  "lr": 0.0001,
+  "loss_first": 1.2148072719573975,
+  "loss_last": 0.06894312798976898,
+  "first_trainable_layer": "block6a_expand_conv"
+ },
+ "test_set": "d3c_test",
+ "macro_f1": 0.731243392496597,
+ "accuracy": 0.7256022866476113,
+ "coverage": 0.43609636586361783,
+ "selective_accuracy": 0.9157303370786517,
+ "mean_confidence": 0.7827547192573547,
+ "recall": {
+  "C01": 0.6368542791056284,
+  "C02": 0.64568345323741,
+  "C03": 0.9932885906040269
+ },
+ "minutes": 0.96
+}

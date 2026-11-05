@@ -1,0 +1,25 @@
+{
+ "registered_utc": "2026-11-05T12:30:33.933351+00:00",
+ "rule": "label-free method and N with the highest mean macro-F1 on d3m_test over three draws, Phase 1 maize model",
+ "maize": {
+  "method": "tent",
+  "N": 400,
+  "mean_macro_f1_d3m_test": 0.9153669435061488,
+  "baseline_macro_f1_d3m_test": 0.831374865621441,
+  "gain_on_d3m_test": 0.08399207788470775
+ },
+ "cassava_exploratory": {
+  "method": "self_training",
+  "N": 10,
+  "mean_macro_f1_d3c_test": 0.5706411623057076,
+  "baseline_macro_f1_d3c_test": 0.5596226959959877
+ },
+ "application": "Notebook 11: the Phase 1 maize model is adapted once with this method and N on images drawn from d5_adapt with the draw-1 seed rule of Notebook 09, then scored on the sealed d5_test; draws 2 and 3 are reported as sensitivity. Primary endpoint: paired group-bootstrap difference in macro-F1 (M01, M05) versus the unadapted Phase 1 model; confirmed if the 95% interval excludes zero and the estimate is >= +0.02.",
+ "method_settings": {
+  "adabn": "running-average BN statistics over batches of 32",
+  "tent": "AdaBN then 5 epochs, Adam 1e-3, BN scale/shift only",
+  "self_training": "two rounds; accept if max temperature-scaled probability >= Phase 1 threshold; 10 epochs Adam 1e-4 on final blocks + head, Phase 1 augmentation"
+ },
+ "registration_sha256": "af079a2b2fa87bbc036691c13e0cd8cb95f2e6c7f7e3c34c28008cfaef61824b",
+ "e13_runs_sha256": "89b1da7cce326167b272b0cb2dc04df3bc27c9d8ae706822e3d080d52967394b"
+}

@@ -1,0 +1,19 @@
+{
+ "crop": "cassava",
+ "start": "phase1",
+ "method": "none",
+ "N": 0,
+ "draw": 0,
+ "label_free": true,
+ "test_set": "d3c_test",
+ "macro_f1": 0.5596226959959877,
+ "accuracy": 0.5340955492037567,
+ "coverage": 0.33278889342588813,
+ "selective_accuracy": 0.8184049079754602,
+ "mean_confidence": 0.739868700504303,
+ "recall": {
+  "C01": 0.3284502698535081,
+  "C02": 0.5215827338129496,
+  "C03": 0.9932885906040269
+ }
+}

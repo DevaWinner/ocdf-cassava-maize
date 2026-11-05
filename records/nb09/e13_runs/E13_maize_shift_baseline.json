@@ -1,0 +1,18 @@
+{
+ "crop": "maize",
+ "start": "shift",
+ "method": "none",
+ "N": 0,
+ "draw": 0,
+ "label_free": true,
+ "test_set": "d3m_test",
+ "macro_f1": 0.7020791415157612,
+ "accuracy": 0.5547945205479452,
+ "coverage": 0.791095890410959,
+ "selective_accuracy": 0.6320346320346321,
+ "mean_confidence": 0.7285153269767761,
+ "recall": {
+  "M01": 0.4730290456431535,
+  "M05": 0.9411764705882353
+ }
+}

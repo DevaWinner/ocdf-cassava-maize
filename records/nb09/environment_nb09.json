@@ -1,0 +1,11 @@
+{
+ "notebook": "09_adaptation",
+ "run_utc": "2026-11-05T12:33:07.945760+00:00",
+ "python": "3.13.16",
+ "tensorflow": "2.21.0",
+ "keras": "3.13.2",
+ "numpy": "2.4.6",
+ "gpu": "NVIDIA A100-SXM4-80GB, 81920 MiB",
+ "cpu_count": 12,
+ "platform": "Linux-6.6.159+-x86_64-with-glibc2.39"
+}

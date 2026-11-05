@@ -1,0 +1,32 @@
+{
+ "run_id": "E13_maize_shift_labelled_N10_d3",
+ "crop": "maize",
+ "start": "shift",
+ "method": "labelled",
+ "N": 10,
+ "draw": 3,
+ "n_adapt_groups": 10,
+ "adapt_label_counts": {
+  "M01": 8,
+  "M05": 2
+ },
+ "label_free": false,
+ "detail": {
+  "epochs": 20,
+  "lr": 0.0001,
+  "loss_first": 1.1037890911102295,
+  "loss_last": 0.07667036354541779,
+  "first_trainable_layer": "block6a_expand_conv"
+ },
+ "test_set": "d3m_test",
+ "macro_f1": 0.86422804415884,
+ "accuracy": 0.8304794520547946,
+ "coverage": 0.9246575342465754,
+ "selective_accuracy": 0.8574074074074074,
+ "mean_confidence": 0.8412345051765442,
+ "recall": {
+  "M01": 0.7987551867219918,
+  "M05": 0.9803921568627451
+ },
+ "minutes": 1.25
+}

@@ -1,0 +1,32 @@
+{
+ "run_id": "E13_cassava_phase1_adabn_N200_d1",
+ "crop": "cassava",
+ "start": "phase1",
+ "method": "adabn",
+ "N": 200,
+ "draw": 1,
+ "n_adapt_groups": 198,
+ "adapt_label_counts": {
+  "C01": 119,
+  "C02": 41,
+  "C03": 40
+ },
+ "label_free": true,
+ "detail": {
+  "bn_layers": 49,
+  "batches": 7,
+  "mean_abs_shift_first3_bn": 0.3221096992492676
+ },
+ "test_set": "d3c_test",
+ "macro_f1": 0.5054654436317499,
+ "accuracy": 0.5022458146182115,
+ "coverage": 0.2674561045324622,
+ "selective_accuracy": 0.6854961832061068,
+ "mean_confidence": 0.7029814124107361,
+ "recall": {
+  "C01": 0.2259059367771781,
+  "C02": 0.9532374100719424,
+  "C03": 0.6828859060402684
+ },
+ "minutes": 0.55
+}

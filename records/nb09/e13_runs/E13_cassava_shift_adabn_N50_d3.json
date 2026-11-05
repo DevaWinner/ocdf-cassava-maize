@@ -1,0 +1,32 @@
+{
+ "run_id": "E13_cassava_shift_adabn_N50_d3",
+ "crop": "cassava",
+ "start": "shift",
+ "method": "adabn",
+ "N": 50,
+ "draw": 3,
+ "n_adapt_groups": 48,
+ "adapt_label_counts": {
+  "C01": 33,
+  "C02": 11,
+  "C03": 6
+ },
+ "label_free": true,
+ "detail": {
+  "bn_layers": 49,
+  "batches": 2,
+  "mean_abs_shift_first3_bn": 0.34690114855766296
+ },
+ "test_set": "d3c_test",
+ "macro_f1": 0.41520487755058494,
+ "accuracy": 0.4324213964883626,
+ "coverage": 0.44589628419763166,
+ "selective_accuracy": 0.5586080586080586,
+ "mean_confidence": 0.7266963124275208,
+ "recall": {
+  "C01": 0.07478797224363917,
+  "C02": 0.947841726618705,
+  "C03": 0.7298657718120806
+ },
+ "minutes": 0.78
+}

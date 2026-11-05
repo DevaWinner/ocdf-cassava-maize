@@ -1,0 +1,32 @@
+{
+ "run_id": "E13_maize_phase1_labelled_N400_d1",
+ "crop": "maize",
+ "start": "phase1",
+ "method": "labelled",
+ "N": 400,
+ "draw": 1,
+ "n_adapt_groups": 396,
+ "adapt_label_counts": {
+  "M01": 333,
+  "M05": 67
+ },
+ "label_free": false,
+ "detail": {
+  "epochs": 20,
+  "lr": 0.0001,
+  "loss_first": 0.8139774203300476,
+  "loss_last": 0.014907747507095337,
+  "first_trainable_layer": "block6a_expand_conv"
+ },
+ "test_set": "d3m_test",
+ "macro_f1": 0.994060694817346,
+ "accuracy": 0.9965753424657534,
+ "coverage": 1.0,
+ "selective_accuracy": 0.9965753424657534,
+ "mean_confidence": 0.9939701557159424,
+ "recall": {
+  "M01": 0.9979253112033195,
+  "M05": 0.9901960784313726
+ },
+ "minutes": 1.67
+}

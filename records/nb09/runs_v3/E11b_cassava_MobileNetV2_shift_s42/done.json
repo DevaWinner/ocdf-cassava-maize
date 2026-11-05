@@ -1,0 +1,52 @@
+{
+ "run_id": "E11b_cassava_MobileNetV2_shift_s42",
+ "experiment": "E11b",
+ "crop": "cassava",
+ "architecture": "MobileNetV2",
+ "arm": "shift",
+ "seed": 42,
+ "classes": [
+  "C01",
+  "C02",
+  "C03"
+ ],
+ "n_train": 11770,
+ "n_select": 1683,
+ "select_macro_f1": 0.6744475590021092,
+ "select_accuracy": 0.8413547237076648,
+ "unfreeze": {
+  "first_trainable_layer": "block_13_expand",
+  "trainable_backbone_layers": 38,
+  "total_backbone_layers": 154
+ },
+ "epochs_run": {
+  "head": 5,
+  "finetune": 10
+ },
+ "temperature_T": 0.9184,
+ "calibration": {
+  "T": 0.9184,
+  "nll_before": 0.3817,
+  "nll_after": 0.3804
+ },
+ "threshold": 0.83,
+ "threshold_status": "target met",
+ "thresh_coverage_per_class": {
+  "C01": 0.14545454545454545,
+  "C02": 0.729483282674772,
+  "C03": 0.3798449612403101
+ },
+ "minutes": 7.4,
+ "environment": {
+  "notebook": "09_adaptation",
+  "run_utc": "2026-11-05T02:21:09.916226+00:00",
+  "python": "3.13.16",
+  "tensorflow": "2.21.0",
+  "keras": "3.13.2",
+  "numpy": "2.4.6",
+  "gpu": "NVIDIA A100-SXM4-40GB, 40960 MiB",
+  "cpu_count": 12,
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39"
+ },
+ "registration_sha256": "af079a2b2fa87bbc036691c13e0cd8cb95f2e6c7f7e3c34c28008cfaef61824b"
+}

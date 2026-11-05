@@ -1,0 +1,65 @@
+{
+ "run_id": "E13_maize_phase1_self_training_N100_d3",
+ "crop": "maize",
+ "start": "phase1",
+ "method": "self_training",
+ "N": 100,
+ "draw": 3,
+ "n_adapt_groups": 100,
+ "adapt_label_counts": {
+  "M01": 85,
+  "M05": 15
+ },
+ "label_free": true,
+ "detail": [
+  {
+   "round": 1,
+   "accepted": 89,
+   "of": 100,
+   "pseudo_label_accuracy_on_accepted": 0.6404494382022472,
+   "accepted_label_counts": {
+    "0": 44,
+    "1": 19,
+    "2": 7,
+    "4": 19
+   },
+   "finetune": {
+    "epochs": 10,
+    "lr": 0.0001,
+    "loss_first": 0.7706854939460754,
+    "loss_last": 0.09150548279285431,
+    "first_trainable_layer": "block6a_expand_conv"
+   }
+  },
+  {
+   "round": 2,
+   "accepted": 96,
+   "of": 100,
+   "pseudo_label_accuracy_on_accepted": 0.6145833333333334,
+   "accepted_label_counts": {
+    "0": 46,
+    "1": 20,
+    "2": 11,
+    "4": 19
+   },
+   "finetune": {
+    "epochs": 10,
+    "lr": 0.0001,
+    "loss_first": 0.1839703470468521,
+    "loss_last": 0.02494017779827118,
+    "first_trainable_layer": "block6a_expand_conv"
+   }
+  }
+ ],
+ "test_set": "d3m_test",
+ "macro_f1": 0.8090125097999114,
+ "accuracy": 0.6541095890410958,
+ "coverage": 0.9777397260273972,
+ "selective_accuracy": 0.660245183887916,
+ "mean_confidence": 0.8940285444259644,
+ "recall": {
+  "M01": 0.5809128630705395,
+  "M05": 1.0
+ },
+ "minutes": 2.34
+}

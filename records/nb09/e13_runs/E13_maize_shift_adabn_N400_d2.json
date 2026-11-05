@@ -1,0 +1,30 @@
+{
+ "run_id": "E13_maize_shift_adabn_N400_d2",
+ "crop": "maize",
+ "start": "shift",
+ "method": "adabn",
+ "N": 400,
+ "draw": 2,
+ "n_adapt_groups": 398,
+ "adapt_label_counts": {
+  "M01": 328,
+  "M05": 72
+ },
+ "label_free": true,
+ "detail": {
+  "bn_layers": 49,
+  "batches": 13,
+  "mean_abs_shift_first3_bn": 0.31673792004585266
+ },
+ "test_set": "d3m_test",
+ "macro_f1": 0.7309198599521181,
+ "accuracy": 0.672945205479452,
+ "coverage": 0.8904109589041096,
+ "selective_accuracy": 0.7096153846153846,
+ "mean_confidence": 0.8096292018890381,
+ "recall": {
+  "M01": 0.6120331950207469,
+  "M05": 0.9607843137254902
+ },
+ "minutes": 0.45
+}

@@ -1,0 +1,35 @@
+{
+ "run_id": "E13_maize_phase1_tent_N200_d2",
+ "crop": "maize",
+ "start": "phase1",
+ "method": "tent",
+ "N": 200,
+ "draw": 2,
+ "n_adapt_groups": 199,
+ "adapt_label_counts": {
+  "M01": 160,
+  "M05": 40
+ },
+ "label_free": true,
+ "detail": {
+  "bn_layers": 49,
+  "batches": 7,
+  "mean_abs_shift_first3_bn": 0.3212434947490692,
+  "epochs": 5,
+  "lr": 0.001,
+  "entropy_first": 0.7049581408500671,
+  "entropy_last": 0.48106831312179565,
+  "trainable_params": 42016
+ },
+ "test_set": "d3m_test",
+ "macro_f1": 0.8889888015881205,
+ "accuracy": 0.8544520547945206,
+ "coverage": 0.9571917808219178,
+ "selective_accuracy": 0.8819320214669052,
+ "mean_confidence": 0.9064189195632935,
+ "recall": {
+  "M01": 0.8257261410788381,
+  "M05": 0.9901960784313726
+ },
+ "minutes": 1.67
+}

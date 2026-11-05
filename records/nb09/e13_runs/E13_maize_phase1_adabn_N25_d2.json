@@ -1,0 +1,30 @@
+{
+ "run_id": "E13_maize_phase1_adabn_N25_d2",
+ "crop": "maize",
+ "start": "phase1",
+ "method": "adabn",
+ "N": 25,
+ "draw": 2,
+ "n_adapt_groups": 25,
+ "adapt_label_counts": {
+  "M01": 20,
+  "M05": 5
+ },
+ "label_free": true,
+ "detail": {
+  "bn_layers": 49,
+  "batches": 1,
+  "mean_abs_shift_first3_bn": 0.25497257709503174
+ },
+ "test_set": "d3m_test",
+ "macro_f1": 0.7098659003831418,
+ "accuracy": 0.577054794520548,
+ "coverage": 0.851027397260274,
+ "selective_accuracy": 0.6277665995975855,
+ "mean_confidence": 0.7612218856811523,
+ "recall": {
+  "M01": 0.49377593360995853,
+  "M05": 0.9705882352941176
+ },
+ "minutes": 0.34
+}

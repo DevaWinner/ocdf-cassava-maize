@@ -1,0 +1,37 @@
+{
+ "run_id": "E13_cassava_phase1_tent_N10_d3",
+ "crop": "cassava",
+ "start": "phase1",
+ "method": "tent",
+ "N": 10,
+ "draw": 3,
+ "n_adapt_groups": 9,
+ "adapt_label_counts": {
+  "C01": 8,
+  "C03": 1,
+  "C02": 1
+ },
+ "label_free": true,
+ "detail": {
+  "bn_layers": 49,
+  "batches": 1,
+  "mean_abs_shift_first3_bn": 0.37206557393074036,
+  "epochs": 5,
+  "lr": 0.001,
+  "entropy_first": 0.6805201768875122,
+  "entropy_last": 0.5675013661384583,
+  "trainable_params": 42016
+ },
+ "test_set": "d3c_test",
+ "macro_f1": 0.4787595651055545,
+ "accuracy": 0.48591261739485503,
+ "coverage": 0.22662311147407105,
+ "selective_accuracy": 0.7675675675675676,
+ "mean_confidence": 0.6918813586235046,
+ "recall": {
+  "C01": 0.15034695451040864,
+  "C02": 0.8776978417266187,
+  "C03": 0.8506711409395973
+ },
+ "minutes": 1.08
+}

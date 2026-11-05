@@ -1,0 +1,56 @@
+{
+ "run_id": "E11b_maize_MobileNetV2_shift_s42",
+ "experiment": "E11b",
+ "crop": "maize",
+ "architecture": "MobileNetV2",
+ "arm": "shift",
+ "seed": 42,
+ "classes": [
+  "M01",
+  "M02",
+  "M03",
+  "M04",
+  "M05"
+ ],
+ "n_train": 10644,
+ "n_select": 1525,
+ "select_macro_f1": 0.9288997391678049,
+ "select_accuracy": 0.9757377049180328,
+ "unfreeze": {
+  "first_trainable_layer": "block_13_expand",
+  "trainable_backbone_layers": 38,
+  "total_backbone_layers": 154
+ },
+ "epochs_run": {
+  "head": 5,
+  "finetune": 5
+ },
+ "temperature_T": 0.5546,
+ "calibration": {
+  "T": 0.5546,
+  "nll_before": 0.105,
+  "nll_after": 0.0764
+ },
+ "threshold": 0.5,
+ "threshold_status": "target met",
+ "thresh_coverage_per_class": {
+  "M01": 1.0,
+  "M02": 1.0,
+  "M03": 1.0,
+  "M04": 1.0,
+  "M05": 1.0
+ },
+ "minutes": 5.2,
+ "environment": {
+  "notebook": "09_adaptation",
+  "run_utc": "2026-11-05T02:20:48.002703+00:00",
+  "python": "3.13.16",
+  "tensorflow": "2.21.0",
+  "keras": "3.13.2",
+  "numpy": "2.4.6",
+  "gpu": "NVIDIA A100-SXM4-40GB, 40960 MiB",
+  "cpu_count": 12,
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39"
+ },
+ "registration_sha256": "af079a2b2fa87bbc036691c13e0cd8cb95f2e6c7f7e3c34c28008cfaef61824b"
+}

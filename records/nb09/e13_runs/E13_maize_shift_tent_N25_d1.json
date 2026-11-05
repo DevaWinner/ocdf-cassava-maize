@@ -1,0 +1,35 @@
+{
+ "run_id": "E13_maize_shift_tent_N25_d1",
+ "crop": "maize",
+ "start": "shift",
+ "method": "tent",
+ "N": 25,
+ "draw": 1,
+ "n_adapt_groups": 25,
+ "adapt_label_counts": {
+  "M01": 18,
+  "M05": 7
+ },
+ "label_free": true,
+ "detail": {
+  "bn_layers": 49,
+  "batches": 1,
+  "mean_abs_shift_first3_bn": 0.30327731370925903,
+  "epochs": 5,
+  "lr": 0.001,
+  "entropy_first": 0.9126608371734619,
+  "entropy_last": 0.8278884887695312,
+  "trainable_params": 42016
+ },
+ "test_set": "d3m_test",
+ "macro_f1": 0.8110711130951815,
+ "accuracy": 0.7636986301369864,
+ "coverage": 0.9452054794520548,
+ "selective_accuracy": 0.7844202898550725,
+ "mean_confidence": 0.8645651936531067,
+ "recall": {
+  "M01": 0.7178423236514523,
+  "M05": 0.9803921568627451
+ },
+ "minutes": 1.38
+}

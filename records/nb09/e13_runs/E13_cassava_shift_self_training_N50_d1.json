@@ -1,0 +1,65 @@
+{
+ "run_id": "E13_cassava_shift_self_training_N50_d1",
+ "crop": "cassava",
+ "start": "shift",
+ "method": "self_training",
+ "N": 50,
+ "draw": 1,
+ "n_adapt_groups": 49,
+ "adapt_label_counts": {
+  "C01": 22,
+  "C02": 20,
+  "C03": 8
+ },
+ "label_free": true,
+ "detail": [
+  {
+   "round": 1,
+   "accepted": 29,
+   "of": 50,
+   "pseudo_label_accuracy_on_accepted": 0.41379310344827586,
+   "accepted_label_counts": {
+    "0": 1,
+    "1": 3,
+    "2": 25
+   },
+   "finetune": {
+    "epochs": 10,
+    "lr": 0.0001,
+    "loss_first": 1.4885332584381104,
+    "loss_last": 0.5261692404747009,
+    "first_trainable_layer": "block6a_expand_conv"
+   }
+  },
+  {
+   "round": 2,
+   "accepted": 34,
+   "of": 50,
+   "pseudo_label_accuracy_on_accepted": 0.35294117647058826,
+   "accepted_label_counts": {
+    "0": 1,
+    "1": 3,
+    "2": 30
+   },
+   "finetune": {
+    "epochs": 10,
+    "lr": 0.0001,
+    "loss_first": 0.5905422568321228,
+    "loss_last": 0.29819539189338684,
+    "first_trainable_layer": "block6a_expand_conv"
+   }
+  }
+ ],
+ "test_set": "d3c_test",
+ "macro_f1": 0.3630395910429969,
+ "accuracy": 0.365863617803185,
+ "coverage": 0.7795018374846876,
+ "selective_accuracy": 0.3865898376113148,
+ "mean_confidence": 0.8527077436447144,
+ "recall": {
+  "C01": 0.09637625289128758,
+  "C02": 0.31654676258992803,
+  "C03": 0.9983221476510067
+ },
+ "minutes": 2.4
+}

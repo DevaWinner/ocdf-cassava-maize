@@ -1,0 +1,12 @@
+{
+ "features": "GAP features of the Phase 1 cassava model",
+ "sets": "D1 test (Uganda) vs d3c_test (Ghana)",
+ "probe": "logistic regression, 5-fold AUC",
+ "auc_before": 0.9998275132435339,
+ "auc_after": 0.9999477684248774,
+ "adaptation": {
+  "method": "self_training",
+  "N": 10,
+  "draw": 1
+ }
+}

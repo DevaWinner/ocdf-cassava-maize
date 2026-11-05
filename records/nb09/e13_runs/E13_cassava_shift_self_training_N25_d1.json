@@ -1,0 +1,63 @@
+{
+ "run_id": "E13_cassava_shift_self_training_N25_d1",
+ "crop": "cassava",
+ "start": "shift",
+ "method": "self_training",
+ "N": 25,
+ "draw": 1,
+ "n_adapt_groups": 24,
+ "adapt_label_counts": {
+  "C01": 15,
+  "C02": 6,
+  "C03": 4
+ },
+ "label_free": true,
+ "detail": [
+  {
+   "round": 1,
+   "accepted": 16,
+   "of": 25,
+   "pseudo_label_accuracy_on_accepted": 0.4375,
+   "accepted_label_counts": {
+    "1": 3,
+    "2": 13
+   },
+   "finetune": {
+    "epochs": 10,
+    "lr": 0.0001,
+    "loss_first": 1.0945825576782227,
+    "loss_last": 0.36447304487228394,
+    "first_trainable_layer": "block6a_expand_conv"
+   }
+  },
+  {
+   "round": 2,
+   "accepted": 19,
+   "of": 25,
+   "pseudo_label_accuracy_on_accepted": 0.3684210526315789,
+   "accepted_label_counts": {
+    "1": 3,
+    "2": 16
+   },
+   "finetune": {
+    "epochs": 10,
+    "lr": 0.0001,
+    "loss_first": 0.5339952707290649,
+    "loss_last": 0.11964535713195801,
+    "first_trainable_layer": "block6a_expand_conv"
+   }
+  }
+ ],
+ "test_set": "d3c_test",
+ "macro_f1": 0.393098998927968,
+ "accuracy": 0.37893017558187014,
+ "coverage": 0.8260514495712535,
+ "selective_accuracy": 0.393475037073653,
+ "mean_confidence": 0.8809500932693481,
+ "recall": {
+  "C01": 0.04626060138781804,
+  "C02": 0.4892086330935252,
+  "C03": 1.0
+ },
+ "minutes": 2.27
+}

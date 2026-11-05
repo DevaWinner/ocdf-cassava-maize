@@ -1,0 +1,37 @@
+{
+ "run_id": "E13_cassava_shift_tent_N400_d2",
+ "crop": "cassava",
+ "start": "shift",
+ "method": "tent",
+ "N": 400,
+ "draw": 2,
+ "n_adapt_groups": 345,
+ "adapt_label_counts": {
+  "C01": 200,
+  "C03": 116,
+  "C02": 84
+ },
+ "label_free": true,
+ "detail": {
+  "bn_layers": 49,
+  "batches": 13,
+  "mean_abs_shift_first3_bn": 0.32240259647369385,
+  "epochs": 5,
+  "lr": 0.001,
+  "entropy_first": 0.6839271783828735,
+  "entropy_last": 0.32671669125556946,
+  "trainable_params": 42016
+ },
+ "test_set": "d3c_test",
+ "macro_f1": 0.1302412727461387,
+ "accuracy": 0.22948142098815844,
+ "coverage": 0.9881584320130665,
+ "selective_accuracy": 0.22975206611570248,
+ "mean_confidence": 0.9924367070198059,
+ "recall": {
+  "C01": 0.0,
+  "C02": 1.0,
+  "C03": 0.010067114093959731
+ },
+ "minutes": 1.57
+}
