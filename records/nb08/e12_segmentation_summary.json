@@ -1,0 +1,77 @@
+{
+ "selected": 1702,
+ "ok": 524,
+ "failed": 1178,
+ "failed_by_status": {
+  "background_not_plain": 868,
+  "leaf_fraction_out_of_range": 190,
+  "mask_background_not_paper": 120
+ },
+ "by_crop_class": {
+  "cassava/C01": {
+   "ok": 79,
+   "failed": 321
+  },
+  "cassava/C02": {
+   "ok": 96,
+   "failed": 304
+  },
+  "cassava/C03": {
+   "ok": 300,
+   "failed": 100
+  },
+  "maize/M01": {
+   "ok": 42,
+   "failed": 358
+  },
+  "maize/M05": {
+   "ok": 7,
+   "failed": 95
+  }
+ },
+ "background_type_by_class": {
+  "cassava/C01": {
+   "n": 400,
+   "paper": 190,
+   "field": 210,
+   "paper_share": 0.475
+  },
+  "cassava/C02": {
+   "n": 400,
+   "paper": 167,
+   "field": 233,
+   "paper_share": 0.417
+  },
+  "cassava/C03": {
+   "n": 400,
+   "paper": 356,
+   "field": 44,
+   "paper_share": 0.89
+  },
+  "maize/M01": {
+   "n": 400,
+   "paper": 101,
+   "field": 299,
+   "paper_share": 0.253
+  },
+  "maize/M05": {
+   "n": 102,
+   "paper": 20,
+   "field": 82,
+   "paper_share": 0.196
+  }
+ },
+ "settings": {
+  "version": 3,
+  "grabcut_iters": 5,
+  "leaf_fraction_min": 0.04,
+  "leaf_fraction_max": 0.85,
+  "feather_px": 3,
+  "min_component_share": 0.1,
+  "paper": "HSV (OpenCV scale): S < 40 and V > 110, or S < 90 and V > 110 with hue outside the plant band 25-95",
+  "sure_fg": "S > 110 and V > 40",
+  "paper_present_min": 0.15,
+  "paper_border_min": 0.05,
+  "background_paper_min": 0.85
+ }
+}
