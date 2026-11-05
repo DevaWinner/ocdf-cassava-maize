@@ -1,0 +1,53 @@
+{
+ "crop": "maize",
+ "test_set": "d5_test",
+ "draw": 2,
+ "adapt_source": "d5_adapt",
+ "N": 400,
+ "method": "tent",
+ "adapt_groups": 389,
+ "adapt_label_counts": {
+  "M01": 245,
+  "M05": 155
+ },
+ "detail": {
+  "bn_layers": 49,
+  "batches": 13,
+  "mean_abs_shift_first3_bn": 0.5366001725196838,
+  "epochs": 5,
+  "lr": 0.001,
+  "entropy_first": 0.7936935424804688,
+  "entropy_last": 0.4463232457637787,
+  "trainable_params": 42016
+ },
+ "unadapted": {
+  "macro_f1": 0.6910216828691351,
+  "accuracy": 0.6656616415410386,
+  "recall": {
+   "M01": 0.7657707076247943,
+   "M05": 0.5086058519793459
+  },
+  "coverage": 0.8777219430485762
+ },
+ "adapted": {
+  "macro_f1": 0.7499563305069256,
+  "accuracy": 0.7778894472361809,
+  "recall": {
+   "M01": 0.911684037301152,
+   "M05": 0.5679862306368331
+  },
+  "coverage": 0.9986599664991624
+ },
+ "paired_difference_macro_f1": {
+  "estimate": 0.05893464763779044,
+  "ci95": [
+   0.04168908213408598,
+   0.07617329118421719
+  ],
+  "n_boot": 2000,
+  "n_groups": 2901
+ },
+ "confirmed": true,
+ "status": "sensitivity",
+ "minutes": 1.53
+}
