@@ -1,0 +1,9 @@
+crop,holdout,arm,runs,in_source,held_out,held_out_sd,drop
+cassava,UG-cassava,phase1,3,0.99,0.3356,0.0727,0.6545
+cassava,UG-cassava,shift,3,0.9802,0.4009,0.0132,0.5794
+maize,GH-C,phase1,3,0.9891,0.8969,0.0131,0.0922
+maize,GH-C,shift,3,0.9802,0.8933,0.0059,0.0869
+maize,GH-K,phase1,3,0.998,,,
+maize,GH-K,shift,3,0.9956,,,
+maize,TZ,phase1,3,0.9544,0.7229,0.0874,0.2315
+maize,TZ,shift,3,0.9514,0.8841,0.0101,0.0673

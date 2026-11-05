@@ -1,0 +1,57 @@
+{
+ "run_id": "E11_cassava_holdout-UG-cassava_phase1_s17",
+ "experiment": "E11",
+ "crop": "cassava",
+ "holdout": "UG-cassava",
+ "train_sources": [
+  "GH-C-cassava"
+ ],
+ "arm": "phase1",
+ "seed": 17,
+ "classes": [
+  "C01",
+  "C02",
+  "C03"
+ ],
+ "n_train": 2224,
+ "n_select": 227,
+ "in_source_select_macro_f1": 0.9903813025053502,
+ "in_source_select_accuracy": 0.9911894273127754,
+ "class_weights": {
+  "C01": 0.6352470722650672,
+  "C03": 1.3357357357357358,
+  "C02": 1.4767596281540505
+ },
+ "unfreeze": {
+  "first_trainable_layer": "block6a_expand_conv",
+  "trainable_backbone_layers": 75,
+  "total_backbone_layers": 238
+ },
+ "epochs_run": {
+  "head": 5,
+  "finetune": 8
+ },
+ "minutes": 3.3,
+ "environment": {
+  "notebook": "07_transfer_matrix",
+  "run_utc": "2026-11-05T00:03:06.708239+00:00",
+  "python": "3.13.16",
+  "tensorflow": "2.21.0",
+  "keras": "3.13.2",
+  "numpy": "2.4.6",
+  "gpu": "NVIDIA A100-SXM4-40GB, 40960 MiB",
+  "cpu_count": 12,
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39"
+ },
+ "registration_sha256": "af079a2b2fa87bbc036691c13e0cd8cb95f2e6c7f7e3c34c28008cfaef61824b",
+ "test_set": "UG-cassava",
+ "n_test": 1683,
+ "test_macro_f1": 0.28703962210738343,
+ "test_accuracy": 0.3095662507427213,
+ "test_per_class_recall": {
+  "C01": 0.7981651376146789,
+  "C02": 0.23860182370820668,
+  "C03": 0.46511627906976744
+ },
+ "drop_macro_f1": 0.7033416803979667
+}

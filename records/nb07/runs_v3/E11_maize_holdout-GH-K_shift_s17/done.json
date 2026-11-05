@@ -1,0 +1,47 @@
+{
+ "run_id": "E11_maize_holdout-GH-K_shift_s17",
+ "experiment": "E11",
+ "crop": "maize",
+ "holdout": "GH-K",
+ "train_sources": [
+  "TZ",
+  "GH-C"
+ ],
+ "arm": "shift",
+ "seed": 17,
+ "classes": [
+  "M01",
+  "M05"
+ ],
+ "n_train": 7687,
+ "n_select": 853,
+ "in_source_select_macro_f1": 0.9940317346591792,
+ "in_source_select_accuracy": 0.9941383352872216,
+ "class_weights": {
+  "M01": 0.8789160759204208,
+  "M05": 1.1597767048883525
+ },
+ "unfreeze": {
+  "first_trainable_layer": "block6a_expand_conv",
+  "trainable_backbone_layers": 75,
+  "total_backbone_layers": 238
+ },
+ "epochs_run": {
+  "head": 5,
+  "finetune": 10
+ },
+ "minutes": 5.7,
+ "environment": {
+  "notebook": "07_transfer_matrix",
+  "run_utc": "2026-11-04T23:44:24.043563+00:00",
+  "python": "3.13.16",
+  "tensorflow": "2.21.0",
+  "keras": "3.13.2",
+  "numpy": "2.4.6",
+  "gpu": "NVIDIA A100-SXM4-40GB, 40960 MiB",
+  "cpu_count": 12,
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39"
+ },
+ "registration_sha256": "af079a2b2fa87bbc036691c13e0cd8cb95f2e6c7f7e3c34c28008cfaef61824b",
+ "test_set": "d5_test (sealed; scored in Notebook 11)"
+}

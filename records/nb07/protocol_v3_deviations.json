@@ -1,0 +1,9 @@
+[
+ {
+  "date_utc": "2026-11-04T23:44:22.289451+00:00",
+  "notebook": "07",
+  "what": "protocol_v3_registration.json (registered 2026-11-04T22:53 UTC) contains the structured registration fields (hypotheses, primary endpoint, D5 archives, split rule) but its registration_text_markdown field holds the string ' + repr(REG_MD) + r' because of a bug in the notebook generator.",
+  "remedy": "The full registration text is written to protocol_v3_registration_text.md with its SHA-256 at the start of Notebook 07, before any Phase 2 training or evaluation. No experiment ran between the two timestamps except data preparation (Notebook 06).",
+  "affects_results": false
+ }
+]
