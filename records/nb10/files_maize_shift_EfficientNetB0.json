@@ -1,0 +1,327 @@
+[
+ {
+  "crop": "maize",
+  "model": "shift_EfficientNetB0",
+  "format": "fp32",
+  "k_float_layers": null,
+  "file": "models_v3/maize/maize_shift_EfficientNetB0_fp32.tflite",
+  "bytes": 16099072,
+  "MiB": 15.353,
+  "sha256": "27b59a8d6cda5598fb643b55427c7e362a7b9ba70cfbe71d59155e1d86c89388",
+  "inspection": {
+   "tensor_dtypes": {
+    "float32": 427,
+    "int32": 59
+   },
+   "operators": {
+    "MUL": 68,
+    "CONV_2D": 65,
+    "LOGISTIC": 65,
+    "DELEGATE": 17,
+    "MEAN": 17,
+    "PACK": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "STRIDED_SLICE": 16,
+    "SHAPE": 16,
+    "RESHAPE": 16,
+    "ADD": 9,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1
+   },
+   "interpreter_path": "default (XNNPACK)"
+  }
+ },
+ {
+  "crop": "maize",
+  "model": "shift_EfficientNetB0",
+  "format": "fp16",
+  "k_float_layers": null,
+  "file": "models_v3/maize/maize_shift_EfficientNetB0_fp16.tflite",
+  "bytes": 8161764,
+  "MiB": 7.784,
+  "sha256": "63c743cd5668485a831eef95ec3912d6e3c8fba54cf59158ce01aa4b6d6763c5",
+  "inspection": {
+   "tensor_dtypes": {
+    "float32": 427,
+    "float16": 168,
+    "int32": 59
+   },
+   "operators": {
+    "DEQUANTIZE": 168,
+    "MUL": 68,
+    "CONV_2D": 65,
+    "LOGISTIC": 65,
+    "DELEGATE": 17,
+    "MEAN": 17,
+    "PACK": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "STRIDED_SLICE": 16,
+    "SHAPE": 16,
+    "RESHAPE": 16,
+    "ADD": 9,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1
+   },
+   "interpreter_path": "default (XNNPACK)"
+  }
+ },
+ {
+  "crop": "maize",
+  "model": "shift_EfficientNetB0",
+  "format": "int8_selective",
+  "k_float_layers": 0,
+  "file": "models_v3/maize/maize_shift_EfficientNetB0_int8_k0.tflite",
+  "bytes": 4953280,
+  "MiB": 4.724,
+  "sha256": "8efbdd1ec955eedf96651b8d5479540a1e365b36a58f6012393f56d404b4bbe5",
+  "inspection": {
+   "tensor_dtypes": {
+    "int8": 345,
+    "int32": 141,
+    "float32": 2
+   },
+   "operators": {
+    "MUL": 68,
+    "LOGISTIC": 65,
+    "CONV_2D": 65,
+    "MEAN": 17,
+    "DELEGATE": 17,
+    "SHAPE": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "RESHAPE": 16,
+    "STRIDED_SLICE": 16,
+    "PACK": 16,
+    "ADD": 9,
+    "QUANTIZE": 1,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1,
+    "DEQUANTIZE": 1
+   },
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "float_layers": []
+ },
+ {
+  "crop": "maize",
+  "model": "shift_EfficientNetB0",
+  "format": "int8_selective",
+  "k_float_layers": 5,
+  "file": "models_v3/maize/maize_shift_EfficientNetB0_int8_k5.tflite",
+  "bytes": 5066928,
+  "MiB": 4.832,
+  "sha256": "940ede0058c15fda670f6ed062129bf6bda317cb7d0f5bec7a195ada90bcc55c",
+  "inspection": {
+   "tensor_dtypes": {
+    "int8": 340,
+    "int32": 136,
+    "float32": 22
+   },
+   "operators": {
+    "MUL": 68,
+    "LOGISTIC": 65,
+    "CONV_2D": 65,
+    "MEAN": 17,
+    "DELEGATE": 17,
+    "SHAPE": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "RESHAPE": 16,
+    "STRIDED_SLICE": 16,
+    "PACK": 16,
+    "ADD": 9,
+    "DEQUANTIZE": 6,
+    "QUANTIZE": 6,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1
+   },
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "float_layers": [
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4b_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4b_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4b_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block1a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block1a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block1a_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2b_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2b_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2b_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6a_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5a_se_reduce_1/Squeeze1"
+  ]
+ },
+ {
+  "crop": "maize",
+  "model": "shift_EfficientNetB0",
+  "format": "int8_selective",
+  "k_float_layers": 10,
+  "file": "models_v3/maize/maize_shift_EfficientNetB0_int8_k10.tflite",
+  "bytes": 5269408,
+  "MiB": 5.025,
+  "sha256": "6eafd30dbc8f49155d48dbb1cb3e3fb62d06a68c6cc99463a147e042012caafe",
+  "inspection": {
+   "tensor_dtypes": {
+    "int8": 336,
+    "int32": 132,
+    "float32": 40
+   },
+   "operators": {
+    "MUL": 68,
+    "LOGISTIC": 65,
+    "CONV_2D": 65,
+    "MEAN": 17,
+    "DELEGATE": 17,
+    "SHAPE": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "RESHAPE": 16,
+    "STRIDED_SLICE": 16,
+    "PACK": 16,
+    "QUANTIZE": 11,
+    "DEQUANTIZE": 11,
+    "ADD": 9,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1
+   },
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "float_layers": [
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4b_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4b_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4b_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block1a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block1a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block1a_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2b_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2b_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2b_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6a_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5a_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4a_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5a_se_squeeze_1/Mean",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4c_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4c_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4c_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2a_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block7a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block7a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block7a_se_reduce_1/Squeeze1"
+  ]
+ },
+ {
+  "crop": "maize",
+  "model": "shift_EfficientNetB0",
+  "format": "int8_selective",
+  "k_float_layers": 20,
+  "file": "models_v3/maize/maize_shift_EfficientNetB0_int8_k20.tflite",
+  "bytes": 5467696,
+  "MiB": 5.214,
+  "sha256": "7d61e1050cc6e8c0d5af9bde4a27503ac1f0878c124656e772df23c1641eb072",
+  "inspection": {
+   "tensor_dtypes": {
+    "int8": 329,
+    "int32": 126,
+    "float32": 71
+   },
+   "operators": {
+    "MUL": 68,
+    "LOGISTIC": 65,
+    "CONV_2D": 65,
+    "DEQUANTIZE": 20,
+    "QUANTIZE": 20,
+    "DELEGATE": 17,
+    "MEAN": 17,
+    "PACK": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "STRIDED_SLICE": 16,
+    "SHAPE": 16,
+    "RESHAPE": 16,
+    "ADD": 9,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1
+   },
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "float_layers": [
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4b_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4b_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4b_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block1a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block1a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block1a_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2b_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2b_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2b_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6a_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5a_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4a_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5a_se_squeeze_1/Mean",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4c_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4c_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4c_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2a_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block7a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block7a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block7a_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5b_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5b_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5b_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block3a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block3a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block3a_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2a_activation_1/Sigmoid",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4b_se_squeeze_1/Mean",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block1a_activation_1/Sigmoid",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block3b_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block3b_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block3b_se_reduce_1/Squeeze1",
+   "StatefulPartitionedCall_1:0",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5c_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5c_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5c_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4a_project_bn_1/batchnorm/add_1;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4a_project_conv_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4a_project_bn_1/batchnorm/sub1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/stem_activation_1/Sigmoid"
+  ]
+ },
+ {
+  "crop": "maize",
+  "model": "shift_EfficientNetB0",
+  "format": "int8_selective",
+  "k_float_layers": 40,
+  "file": "models_v3/maize/maize_shift_EfficientNetB0_int8_k40.tflite",
+  "bytes": 6481400,
+  "MiB": 6.181,
+  "sha256": "128a54631ed1d16c196702d79096c337bdcaa4fdcabba60fbd9f7362160a1ee0",
+  "inspection": {
+   "tensor_dtypes": {
+    "int8": 315,
+    "float32": 135,
+    "int32": 114
+   },
+   "operators": {
+    "MUL": 68,
+    "LOGISTIC": 65,
+    "CONV_2D": 65,
+    "DEQUANTIZE": 39,
+    "QUANTIZE": 39,
+    "DELEGATE": 17,
+    "MEAN": 17,
+    "PACK": 16,
+    "DEPTHWISE_CONV_2D": 16,
+    "STRIDED_SLICE": 16,
+    "SHAPE": 16,
+    "RESHAPE": 16,
+    "ADD": 9,
+    "SUB": 1,
+    "FULLY_CONNECTED": 1
+   },
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "float_layers": [
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4b_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4b_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4b_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block1a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block1a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block1a_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2b_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2b_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2b_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6a_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5a_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4a_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5a_se_squeeze_1/Mean",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4c_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4c_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4c_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2a_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block7a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block7a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block7a_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5b_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5b_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5b_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block3a_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block3a_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block3a_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2a_activation_1/Sigmoid",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4b_se_squeeze_1/Mean",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block1a_activation_1/Sigmoid",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block3b_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block3b_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block3b_se_reduce_1/Squeeze1",
+   "StatefulPartitionedCall_1:0",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5c_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5c_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5c_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4a_project_bn_1/batchnorm/add_1;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4a_project_conv_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4a_project_bn_1/batchnorm/sub1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/stem_activation_1/Sigmoid",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block3a_project_bn_1/batchnorm/add_1;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block3a_project_conv_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block3a_project_bn_1/batchnorm/sub1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2a_se_reduce_1/mul_1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block1a_activation_1/mul_1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block1a_project_bn_1/batchnorm/add_1;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block1a_project_conv_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block1a_project_bn_1/batchnorm/sub1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6c_se_squeeze_1/Mean",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2b_se_expand_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2b_se_expand_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2b_se_expand_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6d_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6d_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6d_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6c_se_reduce_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6c_se_reduce_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6c_se_reduce_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5a_activation_1/Sigmoid",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4c_se_expand_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4c_se_expand_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block4c_se_expand_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5b_se_expand_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5b_se_expand_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5b_se_expand_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5a_se_expand_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5a_se_expand_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5a_se_expand_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6b_expand_activation_1/Sigmoid",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2a_project_bn_1/batchnorm/add_1;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2a_project_conv_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block2a_project_bn_1/batchnorm/sub1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/rescaling_1_2/mul",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6a_project_bn_1/batchnorm/add_1;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6a_project_conv_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6a_project_bn_1/batchnorm/sub1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block6d_activation_1/Sigmoid",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block3a_activation_1/Sigmoid",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5c_se_expand_1/BiasAdd;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5c_se_expand_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5c_se_expand_1/Squeeze1",
+   "EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5a_project_bn_1/batchnorm/add_1;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5a_project_conv_1/convolution;EfficientNetB0_5cls_224_logits_1/efficientnetb0_1/block5a_project_bn_1/batchnorm/sub1"
+  ]
+ }
+]

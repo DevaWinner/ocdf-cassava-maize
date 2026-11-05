@@ -1,0 +1,12 @@
+{
+ "notebook": "10_quantisation_freeze",
+ "run_utc": "2026-11-05T13:33:44.405093+00:00",
+ "python": "3.13.16",
+ "tensorflow": "2.21.0",
+ "keras": "3.13.2",
+ "numpy": "2.4.6",
+ "litert_interpreter": "tf.lite (bundled with TensorFlow)",
+ "gpu": "NVIDIA L4",
+ "cpu_count": 12,
+ "platform": "Linux-6.6.159+-x86_64-with-glibc2.39"
+}

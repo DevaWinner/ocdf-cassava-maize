@@ -1,0 +1,44 @@
+{
+ "selection": {
+  "cassava/phase1_EfficientNetB0": {
+   "select_macro_f1": 0.7063136847619167,
+   "select_accuracy": 0.8360071301247772
+  },
+  "cassava/shift_EfficientNetB0": {
+   "select_macro_f1": 0.7084346445465939,
+   "select_accuracy": 0.8413547237076648
+  },
+  "cassava/shift_MobileNetV2": {
+   "select_macro_f1": 0.6744475590021092,
+   "select_accuracy": 0.8413547237076648
+  },
+  "maize/phase1_EfficientNetB0": {
+   "select_macro_f1": 0.9759947411526069,
+   "select_accuracy": 0.9940983606557378
+  },
+  "maize/shift_EfficientNetB0": {
+   "select_macro_f1": 0.964475619468881,
+   "select_accuracy": 0.9908196721311475
+  },
+  "maize/shift_MobileNetV2": {
+   "select_macro_f1": 0.9262082260108884,
+   "select_accuracy": 0.9750819672131148
+  }
+ },
+ "rule1": {
+  "cassava": {
+   "phase1_select_macro_f1": 0.7063136847619167,
+   "shift_select_macro_f1": 0.7084346445465939,
+   "difference": 0.00212095978467719,
+   "v3_model": "shift_EfficientNetB0",
+   "rule": "shift-augmented EfficientNet-B0 (seed 42) if its selection macro-F1 is within 0.02 of the Phase 1 model, else the Phase 1 model"
+  },
+  "maize": {
+   "phase1_select_macro_f1": 0.9759947411526069,
+   "shift_select_macro_f1": 0.964475619468881,
+   "difference": -0.01151912168372582,
+   "v3_model": "shift_EfficientNetB0",
+   "rule": "shift-augmented EfficientNet-B0 (seed 42) if its selection macro-F1 is within 0.02 of the Phase 1 model, else the Phase 1 model"
+  }
+ }
+}

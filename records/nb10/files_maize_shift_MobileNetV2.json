@@ -1,0 +1,86 @@
+[
+ {
+  "crop": "maize",
+  "model": "shift_MobileNetV2",
+  "format": "fp32",
+  "k_float_layers": null,
+  "file": "models_v3/maize/maize_shift_MobileNetV2_fp32.tflite",
+  "bytes": 8919744,
+  "MiB": 8.507,
+  "sha256": "bcfc51e0b46df1b4a4525825548f533c8c88e5a8c7e703e1ea1643f2c3c66da1",
+  "inspection": {
+   "tensor_dtypes": {
+    "float32": 175,
+    "int32": 1
+   },
+   "operators": {
+    "CONV_2D": 35,
+    "DEPTHWISE_CONV_2D": 17,
+    "ADD": 11,
+    "MUL": 1,
+    "MEAN": 1,
+    "FULLY_CONNECTED": 1,
+    "DELEGATE": 1
+   },
+   "interpreter_path": "default (XNNPACK)"
+  }
+ },
+ {
+  "crop": "maize",
+  "model": "shift_MobileNetV2",
+  "format": "fp16",
+  "k_float_layers": null,
+  "file": "models_v3/maize/maize_shift_MobileNetV2_fp16.tflite",
+  "bytes": 4531316,
+  "MiB": 4.321,
+  "sha256": "afb9825364037717225c061a06142f30631cc02e06eb26d68791375261866a81",
+  "inspection": {
+   "tensor_dtypes": {
+    "float32": 175,
+    "float16": 108,
+    "int32": 1
+   },
+   "operators": {
+    "DEQUANTIZE": 108,
+    "CONV_2D": 35,
+    "DEPTHWISE_CONV_2D": 17,
+    "ADD": 11,
+    "MUL": 1,
+    "MEAN": 1,
+    "FULLY_CONNECTED": 1,
+    "DELEGATE": 1
+   },
+   "interpreter_path": "default (XNNPACK)"
+  }
+ },
+ {
+  "crop": "maize",
+  "model": "shift_MobileNetV2",
+  "format": "int8",
+  "k_float_layers": 0,
+  "file": "models_v3/maize/maize_shift_MobileNetV2_int8.tflite",
+  "bytes": 2745992,
+  "MiB": 2.619,
+  "sha256": "3f217dddd11859f7a2286f3f8159c806d250d789cd1916f5d1742dbb74651bad",
+  "inspection": {
+   "tensor_dtypes": {
+    "int8": 122,
+    "int32": 54,
+    "float32": 2
+   },
+   "operators": {
+    "CONV_2D": 35,
+    "DEPTHWISE_CONV_2D": 17,
+    "ADD": 11,
+    "QUANTIZE": 1,
+    "MUL": 1,
+    "MEAN": 1,
+    "FULLY_CONNECTED": 1,
+    "DEQUANTIZE": 1,
+    "DELEGATE": 1
+   },
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "role": "comparator: full-integer MobileNetV2"
+ }
+]

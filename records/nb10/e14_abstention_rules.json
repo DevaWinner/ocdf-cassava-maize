@@ -1,0 +1,98 @@
+{
+ "cassava": {
+  "file": "models_v3/cassava/cassava_shift_EfficientNetB0_fp16.tflite",
+  "T": 0.7608,
+  "global_threshold": 0.76,
+  "global_status": "target met",
+  "C1_per_class": {
+   "C01": {
+    "n_predicted": 70,
+    "threshold": 0.9,
+    "status": "target infeasible (0.90 used for description only)",
+    "coverage": 0.14285714285714285,
+    "selective_accuracy": 0.7,
+    "accepted_groups": 10
+   },
+   "C02": {
+    "n_predicted": 594,
+    "threshold": 0.5,
+    "status": "target met",
+    "coverage": 0.968013468013468,
+    "selective_accuracy": 0.9756521739130435,
+    "accepted_groups": 575
+   },
+   "C03": {
+    "n_predicted": 178,
+    "threshold": 0.9,
+    "status": "target infeasible (0.90 used for description only)",
+    "coverage": 0.2696629213483146,
+    "selective_accuracy": 0.8333333333333334,
+    "accepted_groups": 48
+   }
+  },
+  "C1_adopted": false,
+  "v3_abstention": "Phase 1 global rule (C1 target not met for every class)",
+  "C2_energy": {
+   "rule": "score only: reject if energy > 95th percentile of threshold-partition energies",
+   "energy_p95": -0.948532223701477,
+   "energy_mean_thresh": -2.168610095977783,
+   "energy_sd_thresh": 0.9291855692863464
+  }
+ },
+ "maize": {
+  "file": "models_v3/maize/maize_shift_EfficientNetB0_fp16.tflite",
+  "T": 0.5519,
+  "global_threshold": 0.5,
+  "global_status": "target met",
+  "C1_per_class": {
+   "M01": {
+    "n_predicted": 315,
+    "threshold": 0.5,
+    "status": "target met",
+    "coverage": 1.0,
+    "selective_accuracy": 0.9936507936507937,
+    "accepted_groups": 314
+   },
+   "M02": {
+    "n_predicted": 47,
+    "threshold": 0.5,
+    "status": "target met",
+    "coverage": 1.0,
+    "selective_accuracy": 0.9787234042553191,
+    "accepted_groups": 46
+   },
+   "M03": {
+    "n_predicted": 27,
+    "threshold": 0.63,
+    "status": "target met",
+    "coverage": 0.8888888888888888,
+    "selective_accuracy": 0.9583333333333334,
+    "accepted_groups": 24
+   },
+   "M04": {
+    "n_predicted": 61,
+    "threshold": 0.5,
+    "status": "target met",
+    "coverage": 1.0,
+    "selective_accuracy": 0.9836065573770492,
+    "accepted_groups": 60
+   },
+   "M05": {
+    "n_predicted": 313,
+    "threshold": 0.5,
+    "status": "target met",
+    "coverage": 1.0,
+    "selective_accuracy": 1.0,
+    "accepted_groups": 311
+   }
+  },
+  "C1_adopted": true,
+  "v3_abstention": "C1 per-class thresholds",
+  "C2_energy": {
+   "rule": "score only: reject if energy > 95th percentile of threshold-partition energies",
+   "energy_p95": -2.6148314476013184,
+   "energy_mean_thresh": -4.57702112197876,
+   "energy_sd_thresh": 1.106837511062622
+  }
+ }
+}

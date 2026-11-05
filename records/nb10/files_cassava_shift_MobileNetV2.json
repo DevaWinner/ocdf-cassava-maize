@@ -1,0 +1,86 @@
+[
+ {
+  "crop": "cassava",
+  "model": "shift_MobileNetV2",
+  "format": "fp32",
+  "k_float_layers": null,
+  "file": "models_v3/cassava/cassava_shift_MobileNetV2_fp32.tflite",
+  "bytes": 8909496,
+  "MiB": 8.497,
+  "sha256": "a3956ee50bbd0634590417797be4b25e81fc5c7cebd34a9a56537599190fbf86",
+  "inspection": {
+   "tensor_dtypes": {
+    "float32": 175,
+    "int32": 1
+   },
+   "operators": {
+    "CONV_2D": 35,
+    "DEPTHWISE_CONV_2D": 17,
+    "ADD": 11,
+    "MUL": 1,
+    "MEAN": 1,
+    "FULLY_CONNECTED": 1,
+    "DELEGATE": 1
+   },
+   "interpreter_path": "default (XNNPACK)"
+  }
+ },
+ {
+  "crop": "cassava",
+  "model": "shift_MobileNetV2",
+  "format": "fp16",
+  "k_float_layers": null,
+  "file": "models_v3/cassava/cassava_shift_MobileNetV2_fp16.tflite",
+  "bytes": 4526192,
+  "MiB": 4.317,
+  "sha256": "09d3708af2a5b6218598f8526a91d0cd60621f8c697c57bc8c124c3fc52cb88d",
+  "inspection": {
+   "tensor_dtypes": {
+    "float32": 175,
+    "float16": 108,
+    "int32": 1
+   },
+   "operators": {
+    "DEQUANTIZE": 108,
+    "CONV_2D": 35,
+    "DEPTHWISE_CONV_2D": 17,
+    "ADD": 11,
+    "MUL": 1,
+    "MEAN": 1,
+    "FULLY_CONNECTED": 1,
+    "DELEGATE": 1
+   },
+   "interpreter_path": "default (XNNPACK)"
+  }
+ },
+ {
+  "crop": "cassava",
+  "model": "shift_MobileNetV2",
+  "format": "int8",
+  "k_float_layers": 0,
+  "file": "models_v3/cassava/cassava_shift_MobileNetV2_int8.tflite",
+  "bytes": 2743376,
+  "MiB": 2.616,
+  "sha256": "1b193f9f4fff9e44ec6a5d42f433e228d1c4c899cacd714ceb03b1caaae724f6",
+  "inspection": {
+   "tensor_dtypes": {
+    "int8": 122,
+    "int32": 54,
+    "float32": 2
+   },
+   "operators": {
+    "CONV_2D": 35,
+    "DEPTHWISE_CONV_2D": 17,
+    "ADD": 11,
+    "QUANTIZE": 1,
+    "MUL": 1,
+    "MEAN": 1,
+    "FULLY_CONNECTED": 1,
+    "DEQUANTIZE": 1,
+    "DELEGATE": 1
+   },
+   "interpreter_path": "default (XNNPACK)"
+  },
+  "role": "comparator: full-integer MobileNetV2"
+ }
+]
