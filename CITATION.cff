@@ -10,7 +10,7 @@ authors:
 license:
   - MIT
   - CC-BY-4.0
-repository-code: "https://github.com/OWNER/ocdf-cassava-maize"
+repository-code: "https://github.com/DevaWinner/ocdf-cassava-maize"
 keywords:
   - plant disease detection
   - cassava

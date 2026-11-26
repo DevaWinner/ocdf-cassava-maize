@@ -1,6 +1,6 @@
 # OCDF: offline cassava and maize leaf-disease classifiers
 
-[![verify](https://github.com/OWNER/ocdf-cassava-maize/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/ocdf-cassava-maize/actions/workflows/ci.yml)
+[![verify](https://github.com/DevaWinner/ocdf-cassava-maize/actions/workflows/ci.yml/badge.svg)](https://github.com/DevaWinner/ocdf-cassava-maize/actions/workflows/ci.yml)
 ![code: MIT](https://img.shields.io/badge/code-MIT-blue)
 ![models and records: CC BY 4.0](https://img.shields.io/badge/models%20%26%20records-CC%20BY%204.0-lightgrey)
 
@@ -30,7 +30,7 @@ recovers most of the loss; label-free adaptation on the device does not do so re
 ## Quick start (two minutes, no GPU, no datasets)
 
 ```bash
-git clone https://github.com/OWNER/ocdf-cassava-maize.git
+git clone https://github.com/DevaWinner/ocdf-cassava-maize.git
 cd ocdf-cassava-maize
 python -m pip install -r requirements.txt
 
@@ -146,7 +146,7 @@ Three levels, from minutes to days; see [docs/REPRODUCIBILITY.md](docs/REPRODUCI
              pre-registered cross-source evaluation},
   year    = {2026},
   version = {1.0.0},
-  url     = {https://github.com/OWNER/ocdf-cassava-maize}
+  url     = {https://github.com/DevaWinner/ocdf-cassava-maize}
 }
 ```
 
