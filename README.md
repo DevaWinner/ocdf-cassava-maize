@@ -4,6 +4,7 @@
 ![code: MIT](https://img.shields.io/badge/code-MIT-blue)
 ![models and records: CC BY 4.0](https://img.shields.io/badge/models%20%26%20records-CC%20BY%204.0-lightgrey)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24546863.svg)](https://doi.org/10.5281/zenodo.24546863)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-models-yellow)](https://huggingface.co/collections/devwinner/ocdf-offline-cassava-and-maize-leaf-disease-classifiers)
 
 Compact image classifiers that name cassava and maize leaf diseases **on a phone, with no
 network connection**, released with everything needed to check, rerun and extend them: the
@@ -59,6 +60,13 @@ from ocdf.inference import Classifier
 clf = Classifier("maize")                 # frozen model, temperature and threshold; hash-checked
 print(clf.predict("leaf.jpg"))            # {'name': ..., 'confidence': ..., 'abstain': ..., 'probabilities': {...}}
 ```
+
+The models can also be downloaded on their own, without cloning this repository, from
+Hugging Face ([maize](https://huggingface.co/devwinner/ocdf-maize), CC BY 4.0;
+[cassava](https://huggingface.co/devwinner/ocdf-cassava), CC BY-NC 4.0, non-commercial) or
+from the [v1.0.0 release assets](https://github.com/DevaWinner/ocdf-cassava-maize/releases/tag/v1.0.0).
+Each Hugging Face repository has a model card, a `config.json` with the frozen labels,
+temperature and threshold, and the same SHA-256 hashes as this repository.
 
 ---
 
