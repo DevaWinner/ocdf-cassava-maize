@@ -1,0 +1,9 @@
+{
+  "title": "OCDF: offline cassava and maize leaf-disease classifiers with a pre-registered cross-source evaluation",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "creators": [{ "name": "Anietie, Aniekan Winner" }],
+  "license": "cc-by-4.0",
+  "keywords": ["plant disease detection", "cassava", "maize", "on-device machine learning", "LiteRT", "domain shift", "pre-registration"],
+  "description": "Compact EfficientNet-B0 classifiers for cassava and maize leaf diseases, converted to LiteRT for offline use on phones, released with the full pipeline, frozen calibration and abstention settings, and the records of a pre-registered study of transfer across African image sources. Code is MIT-licensed; models, records and documentation are CC BY 4.0."
+}

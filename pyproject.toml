@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ocdf"
+version = "1.0.0"
+description = "Offline cassava and maize leaf-disease classifiers (LiteRT) with a pre-registered cross-source evaluation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT (code); CC BY 4.0 (models, records, documentation)" }
+authors = [{ name = "Aniekan Winner Anietie" }]
+keywords = ["plant disease", "cassava", "maize", "on-device", "LiteRT", "domain shift", "pre-registration"]
+dependencies = ["numpy>=1.24", "pandas>=2.0", "pillow>=10.0"]
+
+[project.optional-dependencies]
+runtime = ["ai-edge-litert>=1.0"]
+eval = ["scikit-learn>=1.3"]
+dev = ["pytest>=8.0", "scikit-learn>=1.3", "ai-edge-litert>=1.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

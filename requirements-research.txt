@@ -1,0 +1,6 @@
+# Environment the notebooks ran in (Google Colab, NVIDIA A100 / L4), recorded in records/nb*/environment_nb*.json
+python==3.13.16
+tensorflow==2.21.0
+keras==3.13.2
+numpy==2.4.6
+# plus: pandas, scikit-learn, pillow, opencv-python (GrabCut, Notebook 08), kaggle, requests, qai-hub==0.57.0 (Notebook 12)

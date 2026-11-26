@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+# datasets are never committed; see data/README.md
+datasets/
+raw/
+*.part

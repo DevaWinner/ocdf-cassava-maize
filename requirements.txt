@@ -1,0 +1,7 @@
+# Inference, verification and result reproduction (no GPU, no datasets needed)
+numpy>=1.24
+pandas>=2.0
+pillow>=10.0
+scikit-learn>=1.3
+ai-edge-litert>=1.0
+pytest>=8.0

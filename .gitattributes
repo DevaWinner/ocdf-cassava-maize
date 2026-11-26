@@ -1,0 +1,5 @@
+*.tflite binary
+*.gz binary
+*.png binary
+*.ipynb linguist-language=Python
+records/** linguist-generated=true

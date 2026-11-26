@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use these models, records or code, please cite them as below."
+title: "OCDF: offline cassava and maize leaf-disease classifiers with a pre-registered cross-source evaluation"
+type: software
+version: 1.0.0
+date-released: 2026-11-26
+authors:
+  - family-names: Anietie
+    given-names: Aniekan Winner
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/OWNER/ocdf-cassava-maize"
+keywords:
+  - plant disease detection
+  - cassava
+  - maize
+  - on-device machine learning
+  - LiteRT
+  - domain shift
+  - test-time adaptation
+  - pre-registration
+abstract: >-
+  Compact EfficientNet-B0 classifiers for cassava and maize leaf diseases, converted to
+  LiteRT for offline use on phones (7.8 MiB per crop; 20 ms per image on a 2024 phone and
+  86 ms on a 2018 phone), released with the complete pipeline, frozen calibration and
+  abstention settings, and the records of a pre-registered study of how the models transfer
+  across African image sources. Every reported number can be recomputed from the released
+  predictions, and every model and decision is tied to a SHA-256 audit trail.
