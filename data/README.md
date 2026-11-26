@@ -8,7 +8,7 @@ have exactly the same files.
 
 | Id | Dataset | Origin | Crop | Images used | Role | Source | Licence |
 |---|---|---|---|---|---|---|---|
-| D1 | Cassava Leaf Disease Classification (Makerere AI Lab, NaCRRI) | Uganda, farmers' smartphone photos | cassava | 16,820 | development | [Kaggle competition](https://www.kaggle.com/competitions/cassava-leaf-disease-classification) | competition rules |
+| D1 | Cassava Leaf Disease Classification (Makerere AI Lab, NaCRRI) | Uganda, farmers' smartphone photos | cassava | 16,820 | development | [Kaggle competition](https://www.kaggle.com/competitions/cassava-leaf-disease-classification) | competition rules: non-commercial use only; no redistribution |
 | D4 | Machine learning imagery dataset for maize crop, v6.0 (Mduma & Laizer, 2023) | Tanzania, smartphone | maize | 11,367 | development | [doi:10.7910/DVN/GDON8Q](https://doi.org/10.7910/DVN/GDON8Q) | CC0 1.0 |
 | D6 | PlantVillage, maize classes (Hughes & Salathé, 2015) | laboratory, plain backgrounds | maize | 3,852 | development | [Mendeley Data tywbtsjrjv](https://data.mendeley.com/datasets/tywbtsjrjv/1) | CC0 1.0 (republication) |
 | D3 | CCMT crop pest and disease dataset, raw images (Mensah et al., 2023) | Ghana, DSLR, Oct–Dec 2022 | cassava, maize | 6,069 | external test only | [doi:10.17632/bwh3zbpkpv.1](https://doi.org/10.17632/bwh3zbpkpv.1) | CC BY 4.0 |

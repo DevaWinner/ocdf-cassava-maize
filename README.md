@@ -136,6 +136,7 @@ Three levels, from minutes to days; see [docs/REPRODUCIBILITY.md](docs/REPRODUCI
   from another (PlantVillage), so source and class are partly confounded.
 - Latency was measured on two hosted Android phones and one laptop, CPU only.
 - These are research models, not a diagnostic or advisory service.
+- The cassava models inherit the non-commercial terms of their Kaggle training data (see Licence).
 
 ## Citation
 
@@ -153,5 +154,7 @@ Three levels, from minutes to days; see [docs/REPRODUCIBILITY.md](docs/REPRODUCI
 ## Licence
 
 Code (`src/`, `scripts/`, `tests/`, `notebooks/`, `bench/`): [MIT](LICENSE).
-Models, records, figures and documentation: [CC BY 4.0](LICENSE-CC-BY-4.0.md).
+Models, records, figures and documentation: [CC BY 4.0](LICENSE-CC-BY-4.0.md), except that the
+**cassava models are for non-commercial research and education only**, because their training
+data (Kaggle competition) allows non-commercial use only. The maize models are unrestricted.
 Datasets are not redistributed and keep their own licences ([data/README.md](data/README.md)).

@@ -16,6 +16,15 @@ SHA-256 hashes are in `../CHECKSUMS.sha256` and in the freeze records
 model's temperature and abstention threshold. **Use the Phase 1 FP16 files unless you are
 reproducing a Phase 2 comparison**: they performed better on every shifted test set.
 
+## Licence
+
+**Cassava models: non-commercial use only.** The cassava models were trained on the Kaggle
+Cassava Leaf Disease Classification data, whose competition rules allow use for non-commercial
+purposes only (participation, academic research and education). The cassava `.tflite` files
+are therefore released for non-commercial research and education; the CC BY 4.0 grant does not
+extend to commercial use of them. The maize models were trained on CC0 data (Tanzania maize,
+PlantVillage) and carry no such restriction.
+
 ## Intended use
 
 Research on offline plant-disease classification: benchmarking, transfer and adaptation

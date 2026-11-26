@@ -15,6 +15,15 @@ were made.
 Source code (`src/`, `scripts/`, `tests/`, `notebooks/`, `bench/`) is licensed under the MIT
 licence in `LICENSE`.
 
+## Restriction on the cassava models
+
+**Cassava models: non-commercial use only.** The cassava models were trained on the Kaggle
+Cassava Leaf Disease Classification data, whose competition rules allow use for non-commercial
+purposes only (participation, academic research and education). The cassava `.tflite` files
+are therefore released for non-commercial research and education; the CC BY 4.0 grant does not
+extend to commercial use of them. The maize models were trained on CC0 data (Tanzania maize,
+PlantVillage) and carry no such restriction.
+
 ## Third-party data
 
 No dataset images are redistributed here except the two CCMT example images in
