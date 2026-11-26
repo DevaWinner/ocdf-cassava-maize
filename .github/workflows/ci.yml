@@ -1,0 +1,24 @@
+name: verify
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -r requirements.txt
+      - name: Audit trail and checksums
+        run: python scripts/verify_artifacts.py
+      - name: Reproduce results from saved predictions
+        run: python scripts/reproduce_results.py
+      - name: Offline inference on the example images
+        run: python scripts/predict.py --crop cassava examples/images/*.png
+      - name: Tests
+        run: python -m pytest -q
