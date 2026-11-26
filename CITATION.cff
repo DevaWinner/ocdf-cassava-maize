@@ -27,3 +27,6 @@ abstract: >-
   abstention settings, and the records of a pre-registered study of how the models transfer
   across African image sources. Every reported number can be recomputed from the released
   predictions, and every model and decision is tied to a SHA-256 audit trail.
+  The cassava models are for non-commercial research and education only, because their
+  training data (Kaggle Cassava Leaf Disease Classification) allows non-commercial use
+  only; the maize models carry no such restriction.

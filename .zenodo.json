@@ -5,5 +5,5 @@
   "creators": [{ "name": "Anietie, Aniekan Winner" }],
   "license": "cc-by-4.0",
   "keywords": ["plant disease detection", "cassava", "maize", "on-device machine learning", "LiteRT", "domain shift", "pre-registration"],
-  "description": "Compact EfficientNet-B0 classifiers for cassava and maize leaf diseases, converted to LiteRT for offline use on phones, released with the full pipeline, frozen calibration and abstention settings, and the records of a pre-registered study of transfer across African image sources. Code is MIT-licensed; models, records and documentation are CC BY 4.0."
+  "description": "Compact EfficientNet-B0 classifiers for cassava and maize leaf diseases, converted to LiteRT for offline use on phones, released with the full pipeline, frozen calibration and abstention settings, and the records of a pre-registered study of transfer across African image sources. Code is MIT-licensed; models, records and documentation are CC BY 4.0. The cassava models are for non-commercial research and education only, because their training data (Kaggle Cassava Leaf Disease Classification) allows non-commercial use only; the maize models carry no such restriction."
 }
