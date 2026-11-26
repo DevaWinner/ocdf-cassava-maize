@@ -1,0 +1,22 @@
+source_id,original_label,research_label,research_name,used_for
+D1,CBB,C01,Cassava bacterial blight,development
+D1,CMD,C02,Cassava mosaic disease,development
+D1,Healthy,C03,Healthy cassava,development
+D1,CBSD,,excluded: cassava brown streak disease (not reported in West Africa in the sources reviewed),
+D1,CGM,,excluded: green mottle (equivalence with CCMT green mite cannot be established),
+D3,Cassava/bacterial blight,C01,Cassava bacterial blight,external test
+D3,Cassava/mosaic,C02,Cassava mosaic disease,external test
+D3,Cassava/healthy,C03,Healthy cassava,external test
+D3,Maize/streak virus,M01,Maize streak virus,external test
+D3,Maize/healthy,M05,Healthy maize,external test
+D4,MSV_1,M01,Maize streak virus,development
+D4,MSV_2,M01,Maize streak virus,development
+D4,HEATHLY,M05,Healthy maize,development
+D4,MLN,,excluded: maize lethal necrosis (not in the label set),
+D5,maize_streak,M01,Maize streak virus,Phase 2 adaptation / sealed test
+D5,healthy,M05,Healthy maize,Phase 2 adaptation / sealed test
+D5,faw,,fall armyworm: unfamiliar-input challenge set only,
+D6,Corn___Northern_Leaf_Blight,M02,Northern leaf blight,development
+D6,Corn___Cercospora_leaf_spot Gray_leaf_spot,M03,Grey leaf spot,development
+D6,Corn___Common_rust,M04,Common rust,development
+D6,Corn___healthy,M05,Healthy maize,development
