@@ -1,0 +1,14 @@
+{
+  "cassava": {
+    "C01": "Cassava bacterial blight",
+    "C02": "Cassava mosaic disease",
+    "C03": "Healthy cassava"
+  },
+  "maize": {
+    "M01": "Maize streak virus",
+    "M02": "Northern leaf blight",
+    "M03": "Grey leaf spot",
+    "M04": "Common rust",
+    "M05": "Healthy maize"
+  }
+}
