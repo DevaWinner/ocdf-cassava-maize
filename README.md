@@ -3,6 +3,7 @@
 [![verify](https://github.com/DevaWinner/ocdf-cassava-maize/actions/workflows/ci.yml/badge.svg)](https://github.com/DevaWinner/ocdf-cassava-maize/actions/workflows/ci.yml)
 ![code: MIT](https://img.shields.io/badge/code-MIT-blue)
 ![models and records: CC BY 4.0](https://img.shields.io/badge/models%20%26%20records-CC%20BY%204.0-lightgrey)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24546863.svg)](https://doi.org/10.5281/zenodo.24546863)
 
 Compact image classifiers that name cassava and maize leaf diseases **on a phone, with no
 network connection**, released with everything needed to check, rerun and extend them: the
@@ -147,9 +148,13 @@ Three levels, from minutes to days; see [docs/REPRODUCIBILITY.md](docs/REPRODUCI
              pre-registered cross-source evaluation},
   year    = {2026},
   version = {1.0.0},
-  url     = {https://github.com/DevaWinner/ocdf-cassava-maize}
+  doi     = {10.5281/zenodo.24546864},
+  url     = {https://doi.org/10.5281/zenodo.24546864}
 }
 ```
+
+This cites version 1.0.0. To cite whichever version is latest, use the concept DOI
+[10.5281/zenodo.24546863](https://doi.org/10.5281/zenodo.24546863).
 
 ## Licence
 

@@ -4,6 +4,14 @@ title: "OCDF: offline cassava and maize leaf-disease classifiers with a pre-regi
 type: software
 version: 1.0.0
 date-released: 2026-11-26
+doi: 10.5281/zenodo.24546864
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24546864
+    description: "Version 1.0.0"
+  - type: doi
+    value: 10.5281/zenodo.24546863
+    description: "All versions (concept DOI)"
 authors:
   - family-names: Anietie
     given-names: Aniekan Winner
